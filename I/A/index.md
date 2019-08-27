@@ -5,7 +5,7 @@ Study topics related to specifications and techniques:
 Topics that should be studied and mastered to enable you to pass the WCAG 2 components of the Web Accessibility Specialist exam.
 1. Understand and interpret WCAG 2.0
     
-    a) Understand the relationship between principles, guidelines, success criteria, and their related success/failure techniques.
+    a) Understand the relationship between principles, guidelines, success criteria, and their related success/failure techniques. ([questions for I:A.1.a](1.a.gift))
 
     b) Understand the intent, requirement, and impact of each principle, guideline, and success criterion.
 
