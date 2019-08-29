@@ -1,5 +1,6 @@
 # Practice Questions for the Web Accessibility Specialist (WAS) Exam
-This will serve as a repository for WAS Practice Questions in [GIFT Format](https://docs.moodle.org/37/en/GIFT_format).  You can use the [GIFT Question Editor](https://fuhrmanator.github.io/GIFT-grammar-PEG.js/docs/editor/editor.html) to ensure your questions parse correctly.  You can use the [Gift2QTI tool](https://github.com/csev/gift2qti) to convert GIFT to the more universal IMS-QTI test format for import into your course management system.  These questions should be based on the [Web Accessibility Specialist Body of Knowledge](https://iaap.membershipsoftware.org/files/IAAP%20WAS%20BOK%202018.docx).
+
+This is a repository for sharing practice questions in [GIFT Format](https://docs.moodle.org/37/en/GIFT_format) for the [Web Accessibility Specialist (WAS)](https://www.accessibilityassociation.org/wascertification) Exam.  _This is not an official resource of the International Association of Accessibility Professionals._
 
 [How do I submit questions for review?](CONTRIBUTING.md)
 
