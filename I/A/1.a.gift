@@ -8,10 +8,10 @@ $CATEGORY: was-practice/I/A/1/a
 
 In order for content to be considered to conform to WCAG 2.0, which of the following must not be violated?
 {
-  =Success/Failure Techniques
+  ~Success/Failure Techniques
   ~Guidelines
   ~Principles
-  ~Success Criteria
+  =Success Criteria
 }
 
 
