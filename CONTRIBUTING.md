@@ -28,10 +28,10 @@ An example submission would be something like this:
 
 In order for content to be considered to conform to WCAG, which of the following must not be violated?
 {
-  =Success/Failure Techniques
+  ~Success/Failure Techniques
   ~Guidelines
   ~Principles
-  ~Success Criteria
+  =Success Criteria
 }
 ```
 ## 2. By forking repository and submitting a pull request
