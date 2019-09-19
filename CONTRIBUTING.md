@@ -40,7 +40,7 @@ In order for content to be considered to conform to WCAG, which of the following
 
 ## 3. If a contributor, by creating a branch and submitting a pull request
 
-If you are regularly submitting questions, you can request to be added as a contributor.  As a contributor, you won't have to fork the project.  Rather, you can just create a branch in the base repository and make a pull request from that branch.  Also, as a contributor, you'll be able to make comments on other's pull requests to help in the peer review of questions.  Just open a [contributor request issue](https://github.com/robfentress/was-practice/issues/new?assignees=&labels=&template=contributor-request.md&title=).
+If you are regularly submitting questions, you can request to be added as a contributor.  All contributors added to the project should have already passed the CPACC exam. As a contributor, you won't have to fork the project.  Rather, you can just create a branch in the base repository and make a pull request from that branch.  Also, as a contributor, you'll be able to make comments on other's pull requests to help in the peer review of questions.  Just open a [contributor request issue](https://github.com/robfentress/was-practice/issues/new?assignees=&labels=&template=contributor-request.md&title=).
 
 ## License
 
