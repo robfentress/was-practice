@@ -9,20 +9,9 @@ A new edition of the WAS BOK should be coming soon and, assuming they have fixed
 
 [How do I submit questions for review?](CONTRIBUTING.md)
 
-## I. Create Accessible Web Content (40%)
-### A. [Understand and interpret accessibility specifications and techniques](I/A/index.md)
-### B. [Create accessible JavaScript, AJAX, and interactive content](I/B/index.md)
-### C. [Integrate accessibility into the quality assurance process](I/C/index.md)
-### D. [Choose accessibility techniques that are well-supported](I/D/index.md)
-### E. [Create interactive controls/widgets (standard or custom) based on accessibility best practices](I/E/index.md)
-### F. [Create accessible single-page applications](I/F/index.md)
-### G. [Create web content that is compatible with the strategies used by persons with disabilities to access web content](I/G/index.md)
-## II. Identify accessibility issues/problems (40%)
-### A. [Identify interoperability and compatibility issues](II/A/index.md)
-### B. [Determine conformance to accessibility specifications based on accessibility issues found](II/B/index.md)
-### C. [Test with assistive technologies.](II/C/index.md)
-### D. [Test for end-user impact](II/D/index.md)
-### E. [Use accessibility testing tools effectively](II/E/index.md)
-## III. Remediate (fix) accessibility issues (20%)
-### A. [Prioritize accessibility issues based on the level of severity](III/A/index.md)
-### B. [Recommend strategies and/or techniques for fixing accessibility issues](III/B/index.md)
+## Let me see how you've modified the structure and numbering
+Burrow down into the following links to see how we've modified and renumbered Sections and/or Study Tasks
+
+* [I. Create Accessible Web Content (40%)](I/index.md)
+* [II. Identify accessibility issues/problems (40%)](II/index.md)
+* [III. Remediate (fix) accessibility issues (20%)](III/index.md)
