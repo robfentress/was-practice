@@ -1,0 +1,6 @@
+# II. Identify accessibility issues/problems (40%)
+* [A. Identify interoperability and compatibility issues](II/A/index.md)
+* [B. Determine conformance to accessibility specifications based on accessibility issues found](II/B/index.md)
+* [C. Test with assistive technologies.](II/C/index.md)
+* [D. Test for end-user impact](II/D/index.md)
+* [E. Use accessibility testing tools effectively](II/E/index.md)
