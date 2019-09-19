@@ -44,4 +44,4 @@ If you are regularly submitting questions, you can request to be added as a cont
 
 ## License
 
-By contributing questions, you confirm that what you have submitted is not otherwise copyrighted material and agree to license your contribution under the terms of the [Creative Commons Attribution Share Alike 4.0 International](https://github.com/robfentress/was-practice/blob/master/LICENSE)
+By contributing questions, you affirm that what you have submitted is not otherwise copyrighted material and agree to license your contribution under the terms of the [Creative Commons Attribution Share Alike 4.0 International](https://github.com/robfentress/was-practice/blob/master/LICENSE)
