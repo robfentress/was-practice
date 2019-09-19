@@ -7,7 +7,8 @@ Please note that the original [WAS Body of Knowledge (BOK) document](https://iaa
 
 A new edition of the WAS BOK should be coming soon and, assuming they have fixed the problems with this new edition, I will reformat things to match how IAAP has chosen to do it.
 
-[How do I submit questions for review?](CONTRIBUTING.md)
+## How do I submit questions for review?
+[How to contribute](CONTRIBUTING.md)
 
 ## Let me see how you've modified the structure and numbering
 Burrow down into the following links to see how we've modified and renumbered Sections and/or Study Tasks
