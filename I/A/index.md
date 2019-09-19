@@ -1,4 +1,4 @@
-# I. Create Accessible Web Content
+# A. Understand and interpret accessibility specifications and techniques
 
 Study topics related to specifications and techniques:
 
