@@ -1,4 +1,5 @@
 # G. Create web content that is compatible with the strategies used by persons with disabilities to access web content.
+**Note:** These study tasks are inferred from the Body of Knowledge, not directly stated
 1. Differentiate between the strategies and technologies used by people with different kinds of *visual* disabilities
 
     a) Identify the strategies and technologies used by people who are blind to access web content
