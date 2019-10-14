@@ -9,8 +9,4 @@ Please note that the [WAS Body of Knowledge (BOK) document](https://iaap.members
 [How to contribute](CONTRIBUTING.md)
 
 ## Let me see how you've modified the structure and numbering
-Burrow down into the following links to see how we've modified and renumbered Sections and/or Study Tasks
-
-* [I. Create Accessible Web Content (40%)](I/index.md)
-* [II. Identify accessibility issues/problems (40%)](II/index.md)
-* [III. Remediate (fix) accessibility issues (20%)](III/index.md)
+Complete [list of study tasks](study-tasks.md) from Body of Knowledge
