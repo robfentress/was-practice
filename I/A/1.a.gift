@@ -271,8 +271,8 @@ Providing a page title using the title element is an example of which web access
 
 Ensuring focusable components receive focus in an order that preserves meaning and operability is an example of which accessibility principle?
 {
-  =Perceivable
-  ~Operable
+  ~Perceivable
+  =Operable
   ~Understandable
   ~Robust
 }
