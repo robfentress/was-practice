@@ -1,0 +1,2674 @@
+// question: 0  name: Switch category to $course$/top/Default for WAS
+$CATEGORY: $course$/top/Default for WAS
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Semantic Structure and Navigation
+$CATEGORY: $course$/top/Default for WAS/Semantic Structure and Navigation
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Semantic Structure and Navigation/Part 1
+$CATEGORY: $course$/top/Default for WAS/Semantic Structure and Navigation/Part 1
+
+
+// question: 85  name: Question
+::Question::[html]Which of the following is a WCAG 2.0 Level A requirement?{
+	~Page titles must include the site name
+	=Web pages must have titles that describe topic or purpose
+	~Unique information must come first in the page title
+	~Web page titles must be the same as the top heading in the main content
+	####<p><a class\="instructure_file_link inline_disabled external" href\="https\://www.w3.org/WAI/WCAG21/quickref/\#page-titled" target\="_blank"><span>WCAG Success Criterion 2.4.2 Page Titled -- Level A</span></a></p>
+}
+
+
+// question: 86  name: Question
+::Question::[html]<p>A user has just entered the text string "registration deadline" in a site search field on a university website and hit the submit button.  What would be most likely to be the best title for the results page that loads?</p>{
+	~Virginia Tech | Search
+	~Search | Virginia Tech
+	=Search results for "Registration deadline" | Virginia Tech
+	~Search results | Virginia Tech
+	####<p><a class\="instructure_file_link inline_disabled external" href\="https\://dequeuniversity.com/class/semantic-structure2/page-title/meaningful-page-title\#descriptive-of-result" target\="_blank"><span>If a page is the result of a user action or scripted change of context, the text of the &lt;title&gt; SHOULD describe the result or change of context to the user.</span></a></p>
+}
+
+
+// question: 87  name: Question
+::Question::[html]<p>Which of the following would be the best text to put in the &lt;title&gt; tag of the accessibility policy page at a university with the top-level heading, “Accessibility Policy”?</p>{
+	=Accessibility Policy | Virginia Tech
+	~Virginia Tech | Accessibility Policy
+	~Virginia Tech complies with the requirements set forth under Section 508 of the Rehabilitation Act of 1973 and the Web Content Accessibility Guideline 2.0, Level A and AA
+	~This is a trick question; no title is necessary if a top-level heading is provided
+	####<p><a class\="instructure_file_link inline_disabled external" href\="https\://dequeuniversity.com/class/semantic-structure2/page-title/meaningful-page-title\#unique" target\="_blank"><span>The page &lt;title&gt; SHOULD be unique, if possible.</span></a></p>
+}
+
+
+// question: 88  name: Question
+::Question::[html]<p>Which of the following is NOT a valid value for the <code>lang</code> attribute?</p>{
+	~en
+	=english
+	~en-gb
+	~es
+	####<p><a class\="instructure_file_link inline_disabled external" href\="https\://www.w3schools.com/tags/ref_language_codes.asp" target\="_blank"><span>HTML Language Code Reference</span></a></p>
+}
+
+
+// question: 89  name: Question
+::Question::[html]<p>Which of the following is NOT a valid way of programmatically indicating the language of a page or content on that page?</p>{
+	~<code>&lt;html lang\=”en”&gt;</code>
+	~<code>&lt;span lang\=”es”&gt;</code>
+	=<code>&lt;!doctype html lang\=”de”&gt;</code>
+	~<code>&lt;blockquote language\=”fr”&gt;</code>
+	####<p><a class\="instructure_file_link inline_disabled external" href\="https\://dequeuniversity.com/class/semantic-structure2/language/primary-language" target\="_blank"><span>Primary Language of Page</span></a></p>
+}
+
+
+// question: 90  name: Question
+::Question::[html]<p>What WCAG conformance level are the success criteria having to do with the language of the page and the language of parts of the page?</p>{
+	~The criterion having to do with the language of the page and the criterion having to do with the language of parts of the page are both conformance level A requirements
+	~The criterion having to do with the language of the page and the criterion having to do with the language of parts of the page are both conformance level AA requirements
+	=The criterion having to do with the language of the page is a conformance level A requirement, while the criterion having to do with the language of parts of the page is a level AA requirement
+	~The criterion having to do with the language of the page is a conformance level AA requirement, while the criterion having to do with the language of parts of the page is a level AAA requirement
+	####<ul><li><a class\="instructure_file_link inline_disabled external" href\="https\://www.w3.org/WAI/WCAG21/quickref/\#language-of-page" target\="_blank"><span>WCAG Success Criterion 3.1.1 Language of Page Level A</span></a></li><li><a class\="instructure_file_link inline_disabled external" href\="https\://www.w3.org/WAI/WCAG21/quickref/\#language-of-parts" target\="_blank"><span>WCAG Success Criterion 3.1.2 Language of Parts Level AA</span></a></li></ul>
+}
+
+
+// question: 91  name: Question
+::Question::[html]<p>Why is it inadvisable to rely solely on landmark regions as a means of bypassing repetitive content?</p>{
+	~Landmark regions are not yet supported by all major screen readers
+	=Most browsers do not provide a means for sighted keyboard users to use landmark regions to bypass content
+	~Landmark regions are announced to screen reader users when encountered, but most screen readers do not provide a means for navigating between them.
+	~Because the accesskey attribute has made landmark regions obsolete
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/" class\="external" target\="_blank"><span>Landmarks</span></a>
+}
+
+
+// question: 92  name: Question
+::Question::[html]<p>What is the purpose of landmark regions?</p>{
+	~To designate sections within content
+	=To designate sections of the overall page design and layout
+	~To indicate which parts of the page can be read by screen readers
+	~To create focusable areas on the page
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/creating-landmarks" class\="external" target\="_blank"><span>Creating Landmarks HTML5, ARIA</span></a>
+}
+
+
+// question: 93  name: Question
+::Question::[html]<p>Which of the following is NOT listed among landmarks by most screen readers?</p>{
+	~<code>&lt;nav&gt;</code>
+	~<code>role\=”contentinfo”</code>
+	=<code>&lt;article&gt;</code>
+	~<code>&lt;main&gt;</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/creating-landmarks" class\="external" target\="_blank"><span>Creating Landmarks HTML5, ARIA</span></a>
+}
+
+
+// question: 94  name: Question
+::Question::[html]<p>In a site with two regions for navigation, one for navigating the site and one for navigating a section of the site, of the following, which would be the best way to code the part of the page with the site navigation?</p>{
+	~<code>&lt;nav&gt;</code>
+	~<code>&lt;navigation aria-label\=”site”&gt;</code>
+	~<code>&lt;nav alt\=”site”&gt;</code>
+	=<code>&lt;nav aria-label\=”site”&gt;</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/best-practices" class\="external" target\="_blank"><span>Best Practices for Landmarks</span></a>
+}
+
+
+// question: 95  name: Question
+::Question::[html]<p>Which of the following landmarks is it okay to have more than one of on a page?</p>{
+	~<code>role\="banner"</code>
+	=<code>role\="complementary"</code>
+	~<code>role\="main"</code>
+	~<code>role\="contentinfo"</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/best-practices" class\="external" target\="_blank"><span>Best Practices for Landmarks</span></a>
+}
+
+
+// question: 96  name: Question
+::Question::[html]<p>Which of the following is NOT way to list all landmarks using a screen reader?</p>{
+	~In JAWS press Insert + F3 and then select landmarks
+	~In NVDA press Insert + F7 and then select landmarks
+	=In VoiceOver with Safari on iOS swipe up, then down
+	~In VoiceOver with Safari on macOS press Control + Option + U, then use left/right arrows to select landmarks
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/screen-readers" class\="external" target\="_blank"><span>Navigating Landmarks with Screen Readers</span></a>
+}
+
+
+// question: 97  name: Question
+::Question::[html]<p>Which of the following is NOT a way to navigate from one landmark to the next using a screen reader?</p>{
+	~In JAWS 16 and above, press the R key
+	~In NVDA, press the D key
+	~In Talkback, bring up the local context menu by swiping up and then right, then select landmarks, then swipe right or left
+	=In VoiceOver with Safari on macOS, press Control + Option + L
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/screen-readers" class\="external" target\="_blank"><span>Navigating Landmarks with Screen Readers</span></a>
+}
+
+
+// question: 98  name: Question
+::Question::[html]<p>Which of the following is a way to navigate to the main content landmark using a screen reader?</p>{
+	=In JAWS, press the Q key
+	~In NVDA, press the M key
+	~In VoiceOver on macOS, press Control + Option + M
+	~In Talkback, swipe left, then right
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/screen-readers" class\="external" target\="_blank"><span>Navigating Landmarks with Screen Readers</span></a>
+}
+
+
+// question: 99  name: Question
+::Question::[html]<p>Which of the following is NOT a benefit of using headings on web pages?</p>{
+	~They improve search engine optimization
+	~They clearly communicate the structure of the document, which benefits everyone
+	~They allow screen reader users to easily can get a high-level overview of a web page and quickly jump to the part of the page they are interested in
+	=Most browsers natively provide keyboard shortcuts that allow keyboard users to easily navigate through a document by shifting focus to properly-coded headings
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/headings/" class\="external" target\="_blank"><span>Headings</span></a>
+}
+
+
+// question: 100  name: Question
+::Question::[html]<p>Which of the following is NOT a valid way of programmatically communicating that something is a heading?</p>{
+	~<code>&lt;h1&gt;A page about headings&lt;/h1&gt;</code>
+	=<code>&lt;header&gt;A page about headings&lt;/header&gt;</code>
+	~<code>&lt;div role\="heading" aria-level\="1"&gt;A page about headings&lt;/div&gt;</code>
+	~<code>&lt;p role\="heading" aria-level\="2"&gt;A subsection of a page about headings&lt;p&gt;</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/headings/real-headings" class\="external" target\="_blank"><span>Real Headings</span></a>
+}
+
+
+// question: 101  name: Question
+::Question::[html]<p>Which of the following is a reason why this code is a bad way of communicating to all users that something is a heading?</p><p><code>&lt;p “font-size\: 200%”&gt;&lt;strong&gt;A section about a topic&lt;/strong&gt;&lt;/p&gt;</code></p>{
+	~Because setting styles inline makes it impossible for users to apply custom styles to suit their preferences
+	~Because <code>aria-level</code> is not specified, which makes it impossible for screen reader users to know that the content is a heading
+	~Because the <code>&lt;strong&gt;</code> tag is only used for formatting and does not communicate importance
+	=Because, as coded, screen reader users will not be informed that the content they are encountering is a heading
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/headings/real-headings" class\="external" target\="_blank"><span>Real Headings</span></a>
+}
+
+
+// question: 102  name: Question
+::Question::[html]<p>Which of the following is the best way of indicating that content in a paragraph is important?</p>{
+	~<code>&lt;p&gt;It is &lt;h4 style\=”display\: inline”&gt;very important&lt;/h4&gt; to properly indicate importance.&lt;/p&gt;</code>
+	=<code>&lt;p&gt;It is &lt;strong&gt;very important&lt;/strong&gt; to properly indicate importance.&lt;/p&gt;</code>
+	~<code>&lt;p&gt;It is &lt;span\=”font-weight\: bold”&gt;very important&lt;/span&gt; to properly indicate importance.&lt;/p&gt;</code>
+	~<code>&lt;p&gt;It is VERY IMPORTANT to properly indicate importance.&lt;/p&gt;</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/headings/real-headings" class\="external" target\="_blank"><span>Real Headings</span></a>
+}
+
+
+// question: 103  name: Question
+::Question::[html]<p>Which of the following is NOT true?</p>{
+	~The beginning of the main content of a page should start with <code>&lt;h1&gt;</code>
+	~Heading text should be concise and relatively brief
+	~Headings must be accurate and informative
+	=You should never use an <code>&lt;h1&gt;</code> tag in a modal dialog within a web page
+	####<p>Sources\:</p><ul><li><a href\="https\://dequeuniversity.com/class/semantic-structure2/headings/h1-best-practices" class\="external" target\="_blank"><span>Heading Level 1 Best Practices</span></a></li><li><a href\="https\://dequeuniversity.com/class/semantic-structure2/headings/meaningful" class\="external" target\="_blank"><span>Meaningful Text</span></a></li></ul>
+}
+
+
+// question: 104  name: Question
+::Question::[html]<p>Which of the following is NOT way to list all headings using a screen reader?</p>{
+	~In JAWS, press Insert + F6
+	~In NVDA, press Insert + F7 to open the Elements List, and then select headings
+	=In VoiceOver on iOS, swipe down and to the right
+	~In VoiceOver on macOS, press Control + Option + U to open the rotor, then use the left or right arrows to select headings
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/headings/screen-readers" class\="external" target\="_blank"><span>Navigate Headings with Screen Readers</span></a>
+}
+
+
+// question: 105  name: Question
+::Question::[html]<p>Which of the following is NOT a way to navigate from one heading to the next using a screen reader?</p>{
+	~In JAWS, press the H key
+	~In NVDA, press the H key
+	~VoiceOver on iOS, use the rotor to select headings by making a twisting gesture with two fingers, and then swipe down with one finger
+	=In VoiceOver on macOS, press the H key
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/headings/screen-readers" class\="external" target\="_blank"><span>Navigate Headings with Screen Readers</span></a>
+}
+
+
+// question: 106  name: Question
+::Question::[html]<p>Which of the following is a way to navigate to headings of a certain level using a screen reader?</p>{
+	=In JAWS, press the number key corresponding to the level of the heading, from 1-6
+	~In NVDA, press the Insert key plus the number key corresponding to the level of the heading, from 1-6
+	~In VoiceOver on iOS, swipe diagonally down and to the left, then down and to the right (like a less than symbol) in order to bring up the on-screen keyboard, then press the number key corresponding to the heading level, from 1-6.
+	~In Talkback, swipe up from the bottom of the screen with three fingers to bring up the onscreen keyboard, and then press the number key corresponding to the heading level, from 1-6
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/headings/screen-readers" class\="external" target\="_blank"><span>Navigate Headings with Screen Readers</span></a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Accessibility Fundamentals
+$CATEGORY: $course$/top/Default for WAS/Accessibility Fundamentals
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Accessibility Fundamentals/Types of Disabilities
+$CATEGORY: $course$/top/Default for WAS/Accessibility Fundamentals/Types of Disabilities
+
+
+// question: 26  name: Question
+::Question::[html]<p>What are challenges faced by people who are colorblind?</p>{}
+
+
+// question: 27  name: Question
+::Question::[html]<p>What are solutions to challenges faced by people with color-blindness?</p>{}
+
+
+// question: 28  name: Question
+::Question::[html]<p>What are examples of ICT challenges faced by people who are blind?</p>{}
+
+
+// question: 29  name: Question
+::Question::[html]<p>How could the following challenge encountered by people who are blind be solved?</p><p style\="padding-left\: 40px;">Cannot see digital or electronic interfaces (computers, automated teller machines (ATMs), mobile devices, airport kiosks, televisions, printers, copiers, phones, GPS devices, etc.)</p>{}
+
+
+// question: 30  name: Question
+::Question::[html]<p>How could the following challenge encountered by people who are blind be solved?</p><p>Cannot use screen readers on digital content and interfaces not designed with accessibility in mind</p>{}
+
+
+// question: 31  name: Question
+::Question::[html]<p>What are examples of challenges of architecture and the built environment faced by people who are blind?</p>{}
+
+
+// question: 32  name: Question
+::Question::[html]<p>How could the following challenge encountered by people who are blind be solved?</p><p>Cannot see when walking</p>{}
+
+
+// question: 33  name: Question
+::Question::[html]<p>How could the following challenge encountered by people who are blind be solved?</p><p>Cannot see signs or other text on buildings or other areas in the built environment</p>{}
+
+
+// question: 34  name: Question
+::Question::[html]<div><p><span>What are examples of challenges of consumer and industrial products faced by people who are blind?</span></p>{}
+
+
+// question: 35  name: Question
+::Question::[html]<div><p>How could the following challenge encountered by people who are blind be solved?</p><p>Cannot see or feel the controls on flat interfaces on consumer devices such as microwaves, ovens, dishwashers, etc.</p>{}
+
+
+// question: 36  name: Question
+::Question::[html]<div><p>How could the following challenge encountered by people who are blind be solved?</p><pCannot read the text on the containers or packaging for consumer items such as medicine, toothpaste, shampoo, sunscreen, hand cream, personal care products, foods, drinks, &amp;candy</p>{}
+
+
+// question: 37  name: Question
+::Question::[html]<div><p>How could the following challenge encountered by people who are blind be solved?</p><p>Cannot read money to determine its value</p>{}
+
+
+// question: 38  name: Question
+::Question::[html]<div><p>How could the following challenge encountered by people who are blind be solved?</p><p>Cannot read books, magazines, posters, postal mail, or other printed materials</p>{}
+
+
+// question: 24  name: Question
+::Question::[html]<p>Classify these specific conditions under their relevant disability category or categories</p>{
+	=Cataracts -> Low Vision and Blindness
+	=Glaucoma -> Low Vision and Blindness
+	=Macular Degeneration -> Low Vision and Blindness
+	=Diabetic Retinopathy -> Low Vision and Blindness
+	=Retinal Detachment -> Low Vision and Blindness
+	=Hemianopia -> Low Vision
+	=impaired ability to distinguish between red and green -> Color-blindness
+	=impaired ability to distinguish between blue and yellow -> Color-blindness
+	=hearing impairment (actually hard-of-hearing is preferred) -> Auditory Disabilities
+	=hearing loss -> Auditory Disabilities
+	=deafness -> Auditory Disabilities
+	=spasticity -> Motor Disabilities
+	=paralysis -> Motor Disabilities
+	=tremors -> Motor Disabilities
+	=weakness -> Motor Disabilities
+	=fatigue -> Motor Disabilities
+	=poor coordination -> Motor Disabilities
+	=limited comprehension -> Cognitive Disabilities
+	=low tolerance for cognitive overload -> Cognitive Disabilities
+	=limited problem-solving skills -> Cognitive Disabilities
+	=short-term memory loss -> Cognitive Disabilities
+	=attention deficit -> Cognitive Disabilities
+	=stuttering -> Speech Disabilities
+	=cluttering -> Speech Disabilities
+	=apraxia -> Speech Disabilities
+	=dysarthria -> Speech Disabilities
+	=articulation disorders -> Speech Disabilities
+	=phonemic disorders -> Speech Disabilities
+	=muteness -> Speech Disabilities
+	=anxiety disorders -> Psychological/Psychiatric Disabilities
+	=mood disorders -> Psychological/Psychiatric Disabilities
+	=schizophrenia -> Psychological/Psychiatric Disabilities
+	=Attention Deficit Hyperactivity Disorder (ADHD) -> Psychological/Psychiatric Disabilities
+	=Personality Disorders -> Psychological/Psychiatric Disabilities
+}
+
+
+// question: 25  name: Question
+::Question::[html]<p>What are assistive technologies?</p>{
+	=tools used by people with disabilities to accomplish tasks
+	~subcomponents of machines
+	~WAI-ARIA techniques
+	~extra time on tests
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Accessibility Fundamentals/POUR Techniques Categorization
+$CATEGORY: $course$/top/Default for WAS/Accessibility Fundamentals/POUR Techniques Categorization
+
+
+// question: 39  name: Question
+::Question::[html]<p>Providing closed captions for a video is an example of which web accessibility principle?</p>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#media-equiv-captions">1.2.2 (Captions (Prerecorded))</a>
+}
+
+
+// question: 40  name: Question
+::Question::[html]<p>Providing a text transcript for a an audio recording of an interview is an example of which web accessibility principle?</p>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#media-equiv-av-only-alt">1.2.1 (Audio-only and Video-only (Prerecorded))</a>
+}
+
+
+// question: 41  name: Question
+::Question::[html]<p>Providing audio descriptions for a video is an example of which web accessibility principle?</p>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#media-equiv-audio-desc">1.2.3 (Audio Description or Media Alternative (Prerecorded))</a>
+}
+
+
+// question: 42  name: Question
+::Question::[html]<p>Using table markup to present tabular information is an example of which web accessibility principle?</p>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-html "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/H51.html">H51\: Using table markup to present tabular information</a><ul><li class\=" filter-tech-html "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#content-structure-separation-programmatic">1.3.1 (Info and Relationships)</a></li></ul></li></ul>
+}
+
+
+// question: 43  name: Question
+::Question::[html]<p>Using label elements to associate text labels with form controls is an example of which web accessibility principles? Check all that apply.</p>{
+	~%33.33333%Perceivable#<ul><li><a class\="external" href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#text-equiv-all" target\="_blank"><span>Meets Success Criterion 1.1.1 (Non-text Content)</span></a></li><li><a class\="external" href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#content-structure-separation-programmatic" target\="_blank"><span>Meets Success Criterion 1.3.1 (Info and Relationships)</span></a></li></ul>
+	~Operable
+	~%33.33333%Understandable#<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#minimize-error-cues" class\="external" target\="_blank"><span>Meets Success Criterion 3.3.2 (Labels or Instructions)</span></a>
+	~%33.33333%Robust#<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#ensure-compat-rsv" class\="external" target\="_blank"><span>Meets Success Criterion 4.1.2 (Name, Role, Value)</span></a>
+}
+
+
+// question: 44  name: Question
+::Question::[html]<p>Ensuring content is presented in a meaningful sequence when accessed with a screen reader is an example of which web accessibility principle?</p>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#content-structure-separation-sequence">1.3.2 (Meaningful Sequence)</a>
+}
+
+
+// question: 45  name: Question
+::Question::[html]<p>Providing instructions to the user to click on a link to the right of another element on the page is a violation of which web accessibility principle?</p>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#content-structure-separation-understanding">1.3.3 (Sensory Characteristics)</a>
+}
+
+
+// question: 46  name: Question
+::Question::[html]<p>The following example violates which accessibility principle?</p><blockquote><p>Complete the assignments below. They will be graded as per the policy outlined in our <a style\="text-decoration\: none; color\: maroon;" href\="https\://canvas.vt.edu/courses/122242/file_contents/%24IMS-CC-FILEBASE%24/syllabus.html">syllabus</a>.</p><p style\="font-size\: 1.5em;">Everything in <strong style\="padding\: .2em; color\: \#ff0000;">red</strong> is due tomorrow\:</p><ul><li><span style\="color\: \#ff0000;">List of group members</span></li><li><span style\="color\: \#ff0000;">Project proposal</span></li><li><span>Discussion forum assignment 4</span></li><li><span>Quiz 4</span></li></ul><p>And don't forget the game this Friday.  <strong style\="color\: \#e87722;">Go Hokies!</strong></p></blockquote>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<ul><li><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#visual-audio-contrast-without-color">1.4.1 (Use of Color)</a></li><li><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#visual-audio-contrast-contrast">1.4.3 (Contrast (Minimum))</a></li></ul>
+}
+
+
+// question: 47  name: Question
+::Question::[html]<p>If increasing the size of the text 200% causes that text to be obscured by a picture on the page would violate which accessibility principle?</p>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#visual-audio-contrast-scale">1.4.4 (Resize text)</a>
+}
+
+
+// question: 48  name: Question
+::Question::[html]<p>Adding informative text to a JPG image file is a violation of which web accessibility principle?</p>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#visual-audio-contrast-text-presentation">1.4.5 (Images of Text)</a>
+}
+
+
+// question: 49  name: Question
+::Question::[html]<p>Providing a control near the beginning of the Web page that turns off sounds that play automatically is an example of which accessibility principle?</p>{
+	=Perceivable
+	~Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#visual-audio-contrast-dis-audio">1.4.2 (Audio Control)</a>
+}
+
+
+// question: 50  name: Question
+::Question::[html]<p>Ensuring keyboard control for all functionality is an example of which accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<ul><li><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#keyboard-operation-keyboard-operable">2.1.1 (Keyboard)</a></li><li><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#keyboard-operation-all-funcs">2.1.3 (Keyboard (No Exception))</a></li></ul>
+}
+
+
+// question: 51  name: Question
+::Question::[html]<p>Ensuring that users are not trapped in content is an example of which web accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#keyboard-operation-trapping">2.1.2 (No Keyboard Trap)</a>
+}
+
+
+// question: 52  name: Question
+::Question::[html]<p>Providing a way for the user to turn the time limit off is an example of which web accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-general "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/G198.html">G198\: Providing a way for the user to turn the time limit off</a><ul><li><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#time-limits-required-behaviors">2.2.1 (Timing Adjustable)</a></li></ul></li></ul>
+}
+
+
+// question: 53  name: Question
+::Question::[html]<p>Allowing the content to be paused and restarted from where it was paused is an example of which accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-general "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/G4.html">G4\: Allowing the content to be paused and restarted from where it was paused</a><ul><li class\=" filter-tech-general "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#time-limits-required-behaviors">2.2.1 (Timing Adjustable)</a></li><li class\=" filter-tech-general "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#time-limits-pause">2.2.2 (Pause, Stop, Hide)</a></li></ul></li></ul>
+}
+
+
+// question: 54  name: Question
+::Question::[html]<p>Web pages do not contain anything that flashes more than three times in any one second period are an example of which web accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#seizure-does-not-violate" class\="external" target\="_blank"><span>2.3.1 (Three Flashes or Below Threshold)</span></a>
+}
+
+
+// question: 55  name: Question
+::Question::[html]<p>Adding a link at the top of each page that goes directly to the main content area is an example of which web accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#navigation-mechanisms-skip">2.4.1 (Bypass Blocks)</a>
+}
+
+
+// question: 56  name: Question
+::Question::[html]<p>Providing a page title using the title element is an example of which web accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#navigation-mechanisms-title">2.4.2 (Page Titled)</a>
+}
+
+
+// question: 57  name: Question
+::Question::[html]<p>Ensuring focusable components receive focus in an order that preserves meaning and operability is an example of which accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#navigation-mechanisms-focus-order" class\="external" target\="_blank"><span>2.4.3 (Focus Order)</span></a>
+}
+
+
+// question: 58  name: Question
+::Question::[html]<p>Providing link text that describes the purpose of a link is an example of which accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-general "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/G91.html">G91\: Providing link text that describes the purpose of a link</a><ul><li><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#navigation-mechanisms-refs">2.4.4 (Link Purpose (In Context))</a></li><li><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#navigation-mechanisms-link">2.4.9 (Link Purpose (Link Only))</a></li></ul></li></ul>
+}
+
+
+// question: 59  name: Question
+::Question::[html]<p>Providing a main navigation menu, breadcrumb trail, and search functionality on every page is an example of which web accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<ul><li><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#navigation-mechanisms-mult-loc">2.4.5 (Multiple Ways)</a><ul><li class\=" filter-tech-general "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/G125.html">G125\: Providing links to navigate to related Web pages</a></li><li class\=" filter-tech-general "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/G161.html">G161\: Providing a search function to help users find content</a></li></ul></li></ul>
+}
+
+
+// question: 60  name: Question
+::Question::[html]<p>If headings on a page fail to describe a topic or purpose, which web accessibility principle is violated?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<p><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#navigation-mechanisms-descriptive">2.4.6 (Headings and Labels)</a></p><p>As an aside, it is interesting that this falls under Operable rather than Understandable.  I'm assuming this is because some users of assistive technologies use these headings to navigate through a page, so if someone uses heading tags for formatting purposes -- for instance, to make text bigger or bolder -- this can interfere with their ability to navigate the page in an efficient way.</p>
+}
+
+
+// question: 61  name: Question
+::Question::[html]<p>Providing a visible focus indicator for all focusable elements on a page is an example of which web accessibility principle?</p>{
+	~Perceivable
+	=Operable
+	~Understandable
+	~Robust
+	####<ul><li><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#navigation-mechanisms-focus-visible">2.4.7 (Focus Visible)</a><ul><li class\=" filter-tech-general "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/G149.html">G149\: Using user interface components that are highlighted by the user agent when they receive focus</a></li><li class\=" filter-tech-general "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/G195.html">G195\: Using an author-supplied, highly visible focus indicator</a></li></ul></li></ul>
+}
+
+
+// question: 62  name: Question
+::Question::[html]<p>Ensuring that the default human language of each Web page can be programmatically determined by using language attribute on the html element is an example of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-html "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/H57.html">H57\: Using language attributes on the html element</a><ul><li class\=" filter-tech-html "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#meaning-doc-lang-id">3.1.1 (Language of Page)</a></li></ul></li></ul>
+}
+
+
+// question: 63  name: Question
+::Question::[html]<p>Ensuring that any changes to the default human language of the page can be programmatically determined by using the lang attribute on any element where the language has changed is an example of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-html "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/H58.html">H58\: Using language attributes to identify changes in the human language</a><ul><li class\=" filter-tech-html "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#meaning-other-lang-id">3.1.2 (Language of Parts)</a></li></ul></li></ul>
+}
+
+
+// question: 64  name: Question
+::Question::[html]<p>If a new browser window opened when a link received focus, which web accessibility principle would be violated?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-general "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/G107.html">G107\: Using "activate" rather than "focus" as a trigger for changes of context</a><ul><li class\=" filter-tech-general "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#consistent-behavior-receive-focus">3.2.1 (On Focus)</a></li></ul></li></ul>
+}
+
+
+// question: 65  name: Question
+::Question::[html]<p>Opening a new browser window without warning when changing the selected option in a select list would be a violation of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-f "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/F37.html" class\="external" target\="_blank"><span>F37\: Failure of Success Criterion 3.2.2 due to launching a new window without prior warning when the selection of a radio button, check box or select list is changed</span></a><ul><li class\=" filter-tech-f "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#consistent-behavior-unpredictable-change" class\="external" target\="_blank"><span>3.2.2 (On Input)</span></a></li></ul></li></ul>
+}
+
+
+// question: 66  name: Question
+::Question::[html]<p>Presenting navigation links in a different relative order on different pages would be a violation of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-f "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/F66.html">F66\: Failure of Success Criterion 3.2.3 due to presenting navigation links in a different relative order on different pages</a><ul><li class\=" filter-tech-f "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#consistent-behavior-consistent-locations">3.2.3 (Consistent Navigation)</a></li></ul></li></ul>
+}
+
+
+// question: 67  name: Question
+::Question::[html]<p>If you used different icons on different pages that initiated the same action when pressed, this would be a violation of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#consistent-behavior-consistent-functionality">3.2.4 (Consistent Identification)</a>
+}
+
+
+// question: 68  name: Question
+::Question::[html]<p>If you opened a new window as soon as a new page is loaded, which web accessibility principle would this violate?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-f "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/F52.html">F52\: Failure of Success Criterion 3.2.1 and 3.2.5 due to opening a new window as soon as a new page is loaded</a><ul><li class\=" filter-tech-f "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#consistent-behavior-receive-focus">3.2.1 (On Focus)</a></li><li class\=" filter-tech-f "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#consistent-behavior-no-extreme-changes-context">3.2.5 (Change on Request)</a></li></ul></li></ul>
+}
+
+
+// question: 69  name: Question
+::Question::[html]<p>Providing text descriptions to identify fields that were not completed is an example of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<ul><li class\=" filter-tech-general "><a href\="https\://www.w3.org/TR/WCAG20-TECHS/G83.html">G83\: Providing text descriptions to identify required fields that were not completed</a><ul><li class\=" filter-tech-general "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#minimize-error-identified">3.3.1 (Error Identification)</a></li><li class\=" filter-tech-general "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#minimize-error-suggestions">3.3.3 (Error Suggestion)</a></li><li class\=" filter-tech-general "><a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#minimize-error-cues">3.3.2 (Labels or Instructions)</a></li></ul></li></ul>
+}
+
+
+// question: 70  name: Question
+::Question::[html]<p>Providing instructions when content requires input is an example of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#minimize-error-cues">3.3.2 (Labels or Instructions)</a>
+}
+
+
+// question: 71  name: Question
+::Question::[html]<p>Alerting users to errors in their input is an example of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#minimize-error-suggestions">3.3.3 (Error Suggestion)</a>
+}
+
+
+// question: 72  name: Question
+::Question::[html]<p>For web pages that causes legal commitments, providing a mechanism for reviewing, confirming, and correcting information before finalizing the submission is an example of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	=Understandable
+	~Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#minimize-error-reversible">3.3.4 (Error Prevention (Legal, Financial, Data))</a>
+}
+
+
+// question: 73  name: Question
+::Question::[html]<p>The following code would be an example of a violation of which web accessibility principle?</p><pre><code>&lt;p&gt; &lt;li&gt;item 1&lt;/li&gt; &lt;li&gt;item2&lt;/li&gt; &lt;/p&gt;</code></pre>{
+	~Perceivable
+	~Operable
+	~Understandable
+	=Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#ensure-compat-parses">4.1.1 (Parsing)</a>
+}
+
+
+// question: 74  name: Question
+::Question::[html]<p>For a show/hide pattern, appropriately setting the <code>aria-expanded</code> state of a button that hides and reveals content would be an example of which web accessibility principle?</p>{
+	~Perceivable
+	~Operable
+	~Understandable
+	=Robust
+	####<a href\="http\://www.w3.org/WAI/WCAG20/quickref/20160105/\#ensure-compat-rsv">4.1.2 (Name, Role, Value)</a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Accessibility Fundamentals/Accessibility Law
+$CATEGORY: $course$/top/Default for WAS/Accessibility Fundamentals/Accessibility Law
+
+
+// question: 75  name: Question
+::Question::[html]<p>Which of the following could best be described as a civil rights or non-discrimination law?</p>{
+	~Guidelines on Dissemination of Information through Government Websites (Hong Kong)
+	~EN 301 549
+	=The Americans with Disabilities Act
+	~Section 508 of the Rehabilitation Action of 1973
+}
+
+
+// question: 76  name: Question
+::Question::[html]<p>Which of the following could best be described as a civil rights or non-discrimination law?</p>{
+	~21st Century Communications and Video Accessibility Act (CVAA)
+	=Section 504 of the Rehabilitation Action of 1973
+	~The Universal Declaration of Human Rights
+	~The Web Content Accessibility Guidelines (WCAG)
+	####Source\: <a href\="https\://en.wikipedia.org/wiki/Section_504_of_the_Rehabilitation_Act" class\="external" target\="_blank"><span>Section 504 of the Rehabilitation Act</span></a>
+}
+
+
+// question: 77  name: Question
+::Question::[html]<p>Which of the following could best be described as a multi-national standard?</p>{
+	=The Web Content Accessibility Guidelines (WCAG)
+	~Section 508 of the Rehabilitation Action of 1973
+	~The Individuals with Disabilities Act
+	~The Americans with Disabilities Act
+	####Source\: <a href\="https\://dequeuniversity.com/class/fundamentals2/guidelines/wcag" class\="external" target\="_blank"><span>Web Content Accessibility Guidelines (WCAG)</span></a>
+}
+
+
+// question: 78  name: Question
+::Question::[html]<p>Which of the following is an example of a procurement law?</p>{
+	~The Web Content Accessibility Guidelines (WCAG)
+	=Section 508 of the Rehabilitation Action of 1973
+	~The Americans with Disabilities Act of 1990
+	~Convention on the Rights of Persons with Disabilities
+	####Source\: <a href\="https\://dequeuniversity.com/class/fundamentals2/laws/united-states\#section_508" class\="external" target\="_blank"><span>United States (Section 508 of the Rehabilitation Act)</span></a>
+}
+
+
+// question: 79  name: Question
+::Question::[html]<p>Which of the following could best be described as a domain-specific law or regulation?</p>{
+	~Section 508 of the Rehabilitation Action of 1973
+	~The Act on the Elimination of Discrimination against Persons with Disabilities
+	~<span lang\="fr">Standards sur l'accessibilité du Web</span>
+	=21st Century Communications and Video Accessibility Act (CVAA) (U.S.)
+	####Source\: <a href\="https\://dequeuniversity.com/class/fundamentals2/laws/united-states\#cvaa" class\="external" target\="_blank"><span>United States [21st Century Communications and Video Accessibility Act (CVAA)]</span></a>
+}
+
+
+// question: 80  name: Question
+::Question::[html]<p>The <i lang\="fr">Référentiel Général d'Accessibilité pour les Administrations</i> (RGAA) sets accessibility standards for which province or country?</p>{
+	~Quebec
+	~Belgium
+	=France
+	~Gabon
+	####Source\: <a href\="https\://dequeuniversity.com/class/fundamentals2/laws/europe\#france" class\="external" target\="_blank"><span>Europe (France)</span></a>
+}
+
+
+// question: 81  name: Question
+::Question::[html]<p>The Americans with Disabilities Act (ADA) applies to which groups?</p>{
+	~Only the federal government
+	~All private entities
+	~Only federal and state government entities
+	=Private entities that own, operate, lease, or lease to places of public accommodation
+	####<p>From <a href\="https\://dequeuniversity.com/class/fundamentals2/laws/united-states" class\="external" target\="_blank"><span>Laws\: United States</span></a> in the Deque University course, <a href\="https\://dequeuniversity.com/class/fundamentals2/toc" class\="external" target\="_blank"><span>Accessibility Fundamentals\: Disabilities, Guidelines, and Laws</span></a>\:</p><blockquote><p><strong>The ADA applies to\:</strong></p><ul><li>Private entities that own, operate, lease, or lease to places of public accommodation. Essentially this refers to businesses and other organizations open to the public, with the exception of religious entities and private clubs.</li><li>Federal and state government entities.</li></ul></blockquote>
+}
+
+
+// question: 82  name: Question
+::Question::[html]<p>How is the Americans with Disabilities Act (ADA) enforced?</p>{
+	=Consumers (people with disabilities) filing formal complaints
+	~The Department of Justice conducts  annual reviews of  all federal government entities for compliance
+	~It is a published standard not a law, so there are no enforcement mechanisms
+	~The Social Security Administration conducts surveys of individual receiving disability benefits and uses that identify targets for investigation
+	####From <a href\="https\://dequeuniversity.com/class/fundamentals2/laws/united-states" class\="external" target\="_blank"><span>Laws\: United States</span></a> in the Deque University course, <a href\="https\://dequeuniversity.com/class/fundamentals2/toc" class\="external" target\="_blank"><span>Accessibility Fundamentals\: Disabilities, Guidelines, and Laws</span></a>
+}
+
+
+// question: 83  name: Question
+::Question::[html]<p>The Air Carrier Access Act (ACAA) applies to which of the following?</p>{
+	~Only U.S. air carriers
+	~Only U.S. air carriers offering flights between states
+	=U.S. and foreign air carriers operating flights within or to the U.S. or selling tickets to the U.S. public
+	~All air carriers based in countries which are signatories to the Convention on the Rights of the Disabled
+	####From <a href\="https\://dequeuniversity.com/class/fundamentals2/laws/united-states" class\="external" target\="_blank"><span>Laws\: United States</span></a> in the Deque University course, <a href\="https\://dequeuniversity.com/class/fundamentals2/toc" class\="external" target\="_blank"><span>Accessibility Fundamentals\: Disabilities, Guidelines, and Laws</span></a>
+}
+
+
+// question: 84  name: Question
+::Question::[html]<p>The 21st Century Communications and Video Accessibility Act (CVAA) applies to which of the following?</p>{
+	~Only the Public Broadcasting System
+	~Only telecommunications hardware and software providers
+	~Only television broadcasters
+	=All entities already covered by FCC regulations (namely\: telecommunication hardware and software providers and television broadcasters and television hardware/software providers)
+	####Source\: <a href\="https\://dequeuniversity.com/class/fundamentals2/laws/united-states\#cvaa" class\="external" target\="_blank"><span>United States [21st Century Communications and Video Accessibility Act (CVAA)]</span></a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2
+$CATEGORY: $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2
+
+
+// question: 107  name: Question
+::Question::[html]<p>Assuming no other styling or scripting has been applied, which of the following is NOT a problem with the following code?</p><p><code>&lt;span style\="text-decoration\: underline" onclick\="window.open('https\://vt.edu')"&gt;Virginia Tech&lt;/span&gt;</code></p>{
+	~Screen readers would not announce the the text as a link or include it in the list of links on the page
+	~Keyboard users would not be able to activate the control to navigate to the Virginia Tech page
+	~Speech recognition users would not be given the option to navigate to the Virginia Tech page by saying “click link”
+	=Users of touchscreen devices would not be able to activate the control to navigate to the Virginia Tech page
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/designate-links-correctly" class\="external" target\="_blank"><span>Designate Links</span></a>
+}
+
+
+// question: 108  name: Question
+::Question::[html]<p>The image in the following code is an icon of a printer styled to look like a button.  Assuming no other styling or scripting has been applied, which of the following would NOT be a problem with this code?</p><p><code>&lt;a href\="print-version.html"&gt;&lt;img src\="print.png" alt\="Print"&gt;&lt;/a&gt;</code></p>{
+	~It could lead to misunderstanding if a screen reader user who is blind is communicating with a sighted user about the page, since the control will be presented to the screen reader user as a link, but to the sighted user as a button.
+	~Keyboard users might be confused when they attempt to activate the control by pressing the Spacebar key while the link has focus, but it causes the page to scroll down instead.
+	=All image links must have a <code>title</code> attribute in order to be accessible to users of touch screen devices.
+	~Speech recognition users might be confused when they attempt to activate the button by saying “click button,” but it doesn’t work.
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/designate-links-correctly" class\="external" target\="_blank"><span>Designate Links</span></a>
+}
+
+
+// question: 109  name: Question
+::Question::[html]<p>Assuming there are no elements on the page that have an id attribute set, which of the following would NOT provide programmatically-discernable text for a link?</p>{
+	~<code>&lt;a href\="save.php"aria-label\="Save"&gt;&lt;img src\="floppy-disc.jpg" alt\=""&gt;&lt;/a&gt;</code>
+	~<code>&lt;a href\="save.php"&gt;&lt;img src\="floppy-disc.jpg" alt\=""&gt; Save&lt;/a&gt;</code>
+	~<code>&lt;a href\="save.php"&gt;&lt;img src\="floppy-disc.jpg" alt\="Save"&gt;&lt;/a&gt;</code>
+	=<code>&lt;a href\="save.php" aria-labeledby\="Save"&gt;&lt;img src\="floppy-disc.jpg" alt\=""&gt;&lt;/a&gt;<code></code></code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/link-text)" class\="external" target\="_blank"><span>Link Text</span></a>
+}
+
+
+// question: 110  name: Question
+::Question::[html]<p>Which link text below would be preferable in most circumstances?</p>{
+	~<code>&lt;p&gt;&lt;a href\="accessibility.html"&gt;This&lt;/a&gt; is how we should link to an article about web accessibility&lt;/p&gt;</code>
+	=<code>&lt;p&gt;We should all strive to learn more about &lt;a href\="accessibility.html"&gt;web accessibility&lt;/a&gt;.&lt;p&gt;</code>
+	~<code>&lt;p&gt;To learn more, &lt;a href\="accessibility.html"&gt;click here&lt;/a&gt;&lt;p&gt;</code>
+	~<code>&lt;h2&gt;Web Accessibility&lt;/h2&gt;&lt;p&gt;Web accessibility is the inclusive practice of ensuring there are no barriers that prevent interaction with &amp;hellip;&lt;/p&gt; &lt;div&gt;&lt;a href\="accessibility.html"&gt;More&lt;/a&gt;&lt;/div&gt;</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/link-text)" class\="external" target\="_blank"><span>Link Text</span></a>
+}
+
+
+// question: 111  name: Question
+::Question::[html]<p>From an accessibility perspective, which of the following is the least preferred means of coding a link to a site that opens in a new window?</p>{
+	=<code>&lt;p&gt;&lt;a href\="https\://vt.edu" target\="_blank" aria-label\="opens new window"&gt;Virginia Tech&lt;/a&gt;&lt;/p&gt;</code>
+	~<code>&lt;p&gt;&lt;a href\="https\://vt.edu" target\="_blank"&gt;Virginia Tech (opens new window)&lt;/a&gt;&lt;/p&gt;</code>
+	~<code>&lt;p&gt;&lt;a href\="https\://vt.edu" target\="_blank"&gt;Virginia Tech &lt;img src\="new-window.png" alt\="opens new window"&gt;&lt;/a&gt;&lt;/p&gt;</code>
+	~<code>&lt;p&gt;&lt;a href\="https\://vt.edu" target\="_blank"&gt;Virginia Tech &lt;img src\="new-window.png" aria-label\="opens new window"&gt;&lt;/a&gt;&lt;/p&gt;</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/external-windows-files" class\="external" target\="_blank"><span>Links to External Sites, New Windows, Files</span></a>
+}
+
+
+// question: 112  name: Question
+::Question::[html]<p>Where the contrast ratio between color codes \#990033 and \#000000 is 2.4\:1, which of the following is the least preferable, assuming no other styles have been applied than what is apparent in the code?</p>{
+	~<code>&lt;p&gt;&lt;a href\="accessibility.html"&gt;Web accessibility&lt;/a&gt; is important.&lt;/p&gt;</code>
+	=<code>&lt;p style\="color\: \#000000"&gt;&lt;a href\="accessibility.html" style\="text-decoration\: none; color\: \#990033;"&gt;Web accessibility&lt;/a&gt; is important.&lt;/p&gt;</code>
+	~<code>&lt;p style\="color\: \#000000"&gt;&lt;a href\="accessibility.html" style\="color\: \#990033;"&gt;Web accessibility&lt;/a&gt; is important.&lt;/p&gt;</code>
+	~<code>&lt;p style\="color\: \#000000; background-color\: \#FFFFFF"&gt;&lt;a href\="accessibility.html" style\="color\: \#990033;"&gt;Web accessibility&lt;/a&gt; is important.&lt;/p&gt;</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/visually-distinguishable" class\="external" target\="_blank"><span>Visually Distinguishable from Text</span></a>
+}
+
+
+// question: 113  name: Question
+::Question::[html]<p>Why is it important not to remove visual focus indicators from links and controls, for instance, by setting the outline CSS property for the focus pseudo-class to none?</p>{
+	~Removing the focus outline makes it so the elements are ignored by screen readers
+	~Removing the focus outline makes it so the elements cannot be activated using voice control software
+	~Setting the outline property to none causes the control to fail contrast requirements
+	=Removing the focus outline makes it so sighted users who rely on keyboards do not know what elements have focus
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/visual-focus-indicator" class\="external" target\="_blank"><span>Visual focus indicator</span></a>
+}
+
+
+// question: 114  name: Question
+::Question::[html]<p>Which of the following is a way to list all links using a screen reader?</p>{
+	~In JAWS, press Insert + F5
+	=In NVDA, press Insert + F7 to open the Elements List, and then select links
+	~In Talkback, swipe up from the bottom of the screen with three fingers to bring up the onscreen keyboard, and then press the L key
+	~In VoiceOver on macOS, press Control + Option + L
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/navigating-links-screen-readers" class\="external" target\="_blank"><span>Navigating links with screen readers</span></a>
+}
+
+
+// question: 115  name: Question
+::Question::[html]<p>Which of the following is NOT a way to navigate from one link to the next using a screen reader?</p>{
+	=In JAWS, press the K key
+	~In NVDA, press the K key
+	~VoiceOver on iOS, use the rotor to select links by making a twisting gesture with two fingers, and then swipe down with one finger
+	~In VoiceOver on macOS, press the Control + Option + Command + L
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/navigating-links-screen-readers" class\="external" target\="_blank"><span>Navigating links with screen readers</span></a>
+}
+
+
+// question: 116  name: Question
+::Question::[html]<p>Which of the following is a way to navigate to the next unvisited link using a screen reader?</p>{
+	=In JAWS, press U
+	~In NVDA, press Insert + U
+	~In VoiceOver on iOS, draw a U on the screen with one finger
+	~In VoiceOver on macOS, press the Control + Option + Command + U
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/navigating-links-screen-readers" class\="external" target\="_blank"><span>Navigating links with screen readers</span></a>
+}
+
+
+// question: 117  name: Question
+::Question::[html]<p>Which of the following is NOT a way to navigate to the next visited link using a screen reader?</p>{
+	~In JAWS, press V
+	~In NVDA, press V
+	=In Talkback, draw a V on the screen with one finger
+	~In VoiceOver on macOS, press the Control + Option + Command + V
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/navigating-links-screen-readers" class\="external" target\="_blank"><span>Navigating links with screen readers</span></a>
+}
+
+
+// question: 118  name: Question
+::Question::[html]<p>Which of the following is NOT true?</p>{
+	=All site navigation <strong>must</strong> be contained in a list structure (such as, <code>&lt;ul&gt;</code>, <code>&lt;ol&gt;</code>, <code>&lt;dl&gt;</code>)
+	~A navigation list <strong>should</strong> be designated with the <code>&lt;nav&gt;</code> element or <code>role\="navigation"</code>.
+	~A navigation list <strong>should</strong> include a visible method of informing users which page within the navigation list is the currently active/visible page.
+	~A navigation list <strong>should</strong> include a method of informing blind users which page within the navigation list is the currently active/visible page.
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/between-pages/navigation-lists" class\="external" target\="_blank"><span>Navigation Lists</span></a>
+}
+
+
+// question: 119  name: Question
+::Question::[html]<p>Which of the following is true regarding bypass blocks?</p>{
+	~“Skip navigation" links must always be visible
+	~Encapsulating content in landmark regions provides a way for all users to reliably skip to the main content of the page
+	=“Skip navigation" links must always be visible or become visible when they receive focus
+	~“Skip navigation" links are usually the only way that screen reader users can skip to the main content of the page
+}
+
+
+// question: 120  name: Question
+::Question::[html]<p>The following code on a web page describes how to wash your hands.  Which of the following users might be confused by the instructions?</p><blockquote><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: rgb(255, 255, 255); color\: rgb(0, 0, 0);"><span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"float\:right; width\:33%"</span>&gt;</span>Repeat<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"float\:right; width\:33%"</span>&gt;</span>Rinse<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"float\:right; width\:33%"</span>&gt;</span>Lather<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span></pre></blockquote>{
+	=Screen reader users who are blind
+	~People using touch screen devices
+	~People using Windows High Contrast Mode
+	~People with dyscalculia
+	####Because, by default, screen readers will read content in the order it appears in the DOM, these users will end up with soapy hands.
+}
+
+
+// question: 121  name: Question
+::Question::[html]<p>Which of the following code examples is most accessible?</p>{
+	~<pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: rgb(255, 255, 255); color\: rgb(0, 0, 0);"><span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"display\: flex"</span>&gt;</span>
+   <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"order\:2; width\:50%"</span>&gt;</span>
+     <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"last"</span>&gt;</span>Last\:<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span>
+     <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"last"</span>&gt;</span>
+   <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span> 
+   <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"order\:1; width\:50%"</span>&gt;</span>
+     <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"first"</span>&gt;</span>First\:<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span> 
+     <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"first"</span>&gt;</span>
+   <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span></pre>
+	~<pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: rgb(255, 255, 255); color\: rgb(0, 0, 0);"><span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"float\:right; width\:50%"</span>&gt;</span>
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"last"</span>&gt;</span>Last\:<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span> 
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"last"</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span> 
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"float\:right; width\:50%"</span>&gt;</span>
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"first"</span>&gt;</span>First\:<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span> 
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"first"</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span></pre>
+	~<pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: rgb(255, 255, 255); color\: rgb(0, 0, 0);"><span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"float\:right; width\:50%"</span>&gt;</span>
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"last"</span>&gt;</span>Last\:<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span> 
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"last"</span> <span class\="hljs-attr" style\="color\: red;">tabindex</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"2"</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span> 
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"float\:right; width\:50%"</span>&gt;</span>
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"first"</span>&gt;</span>First\:<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span> 
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"first"</span> <span class\="hljs-attr" style\="color\: red;">tabindex</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"1"</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span></pre>
+	\=<pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: rgb(255, 255, 255); color\: rgb(0, 0, 0);"><span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"display\: flex"</span>&gt;</span>
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"width\:50%"</span>&gt;</span>
+    <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"first"</span>&gt;</span>First\:<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span> 
+    <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"first"</span>&gt;</span>
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span> 
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span> <span class\="hljs-attr" style\="color\: red;">style</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"width\:50%"</span>&gt;</span>
+    <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"last"</span>&gt;</span>Last\:<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span> 
+    <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"last"</span>&gt;</span>
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">div</span>&gt;</span></pre>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Tables
+$CATEGORY: $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Tables
+
+
+// question: 126  name: Question
+::Question::[html]<p>Which of the following is true regarding tables?</p>{
+	~All tables MUST have row and column headers
+	=Data tables SHOULD have a programmatically-associated caption or name
+	~You MUST use the headers attribute to specify which cells are to serve as headers
+	~role\="presentation" SHOULD be added to the &lt;table&gt; tag of a data table
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/tables/table-caption">Table caption/name</a>
+}
+
+
+// question: 127  name: Question
+::Question::[html]<p>Which of the following is the best way to handle data tables where one cell may have multiple row or column headers?</p>{
+	~Nest one table inside of another
+	~Create the appearance of a complex table using <code>&lt;div&gt;</code> tags and CSS positioning and then use aria-labelledby to create the associations between the elements that appear to be data cells and the elements that appear to be headers
+	=For each <code>&lt;td&gt;</code> tag, add a headers attribute and set its value to a space-delimited list of references to the IDs of the &lt;th&gt; tags that serve as headers for it
+	~Simply set the scope attribute for any header serving as a row header to "row" and for any header serving as a column header to "column" and that is all you need to do
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/tables/complex">Complex Header Associations</a>
+}
+
+
+// question: 128  name: Question
+::Question::[html]<p>Which of the following is true regarding tables used solely for layout purposes? (check all that apply)</p>{
+	~Table markup MUST NOT be used for visual layout purposes
+	~%33.33333%Layout tables MUST NOT include <code>&lt;th&gt;</code> tags
+	~%33.33333%Layout tables MUST NOT contain the <code>&lt;caption&gt;</code> tag
+	~%33.33333%Layout tables MUST NOT use the <code>headers</code> attribute
+	####Sources\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/tables/layout-tables">Layout Tables</a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Lists
+$CATEGORY: $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Lists
+
+
+// question: 123  name: Question
+::Question::[html]<p>If you used asterisks and <code>&lt;br&gt;</code> tags to visually indicate that something was a list, rather than <code>&lt;ul&gt;</code> and <code>&lt;li&gt;</code> tags, what cues and affordances might users of screen readers miss? (check all that apply)</p>{
+	~%33.33333%As soon as the virtual cursor enters a list, an indication of how many items are in that list
+	~%33.33333%The ability to navigate between lists on a page using key commands
+	~%33.33333%The ability to navigate between list items on a page using key commands
+	~The ability to delete items from the list using key commands
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/lists/">Lists</a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Frames
+$CATEGORY: $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Frames
+
+
+// question: 122  name: Question
+::Question::[html]<p>Which of the following is true regarding iframes?</p>{
+	~Iframes do not need to have a title attribute if the pages inside them have a <code>&lt;title&gt;</code> tag
+	~Pages inside iframes do not need a <code>&lt;title&gt;</code> tag if the iframe they are displayed in has a <code>title</code> attribute
+	~Iframes do not need to have a <code>title</code> attribute if the pages inside them have an <code>&lt;h1&gt;</code> tag
+	=Iframes that don't have meaningful content should be hidden from assistive technologies using <code>aria-hidden\="true"</code>
+	####<p>Source\: <a class\="instructure_file_link inline_disabled" href\="https\://dequeuniversity.com/class/semantic-structure2/iframes/hiding-iframes" target\="_blank">Hiding iframes that don't contain meaningful content</a></p>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Other
+$CATEGORY: $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Other
+
+
+// question: 124  name: Question
+::Question::[html]<p>Which of the following will have their semantics communicated by screen readers that are not using a refreshable Braille display for output? (check all that apply)</p>{
+	~<code>&lt;del&gt;</code>
+	~<code>&lt;ins&gt;</code>
+	~%100%<code>&lt;a href\="index.html&gt;Home&lt;/a&gt;</code>
+	~<code>&lt;mark&gt;</code>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Parsing
+$CATEGORY: $course$/top/Default for WAS/Semantic Structure and Navigation/Part 2/Parsing
+
+
+// question: 125  name: Question
+::Question::[html]<p>In HTML 5.2, which of the following would violate accessibility requirements regarding parsing and validity? (check all that apply)</p>{
+	~%33.33333%<p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: rgb(255, 255, 255); color\: rgb(0, 0, 0);"><span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"name"</span>&gt;</span>First<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"name"</span> <span class\="hljs-attr" style\="color\: red;">name</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"name"</span> <span class\="hljs-attr" style\="color\: red;">autocomplete</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"given-name"</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"name"</span>&gt;</span>Last<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"name"</span> <span class\="hljs-attr" style\="color\: red;">name</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"last"</span> <span class\="hljs-attr" style\="color\: red;">autocomplete</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"family-name"</span>&gt;</span></pre></p>
+	~%33.33333%<code>&lt;div&gt;&lt;button type\="button" class\="button" disabled&gt;Search&lt;/buton&gt;&lt;/div&gt;</code>
+	~%33.33333%<code>&lt;p&gt;&lt;li&gt;apples&lt;/li&gt;&lt;li&gt;oranges&lt;/li&gt;&lt;p&gt;</code>
+	~<p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: rgb(255, 255, 255); color\: rgb(0, 0, 0);"><span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span> <span class\="hljs-attr" style\="color\: red;">for</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"name"</span>&gt;</span>Name<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">label</span>&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">input</span> <span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"text"</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"name"</span> <span class\="hljs-attr" style\="color\: red;">name</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"name"</span> <span class\="hljs-attr" style\="color\: red;">autocomplete</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"name"</span>&gt;</span></pre></p>
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/parsing-and-validity/">Parsing and Validity</a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Images, SVG, and Canvas
+$CATEGORY: $course$/top/Default for WAS/Images, SVG, and Canvas
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Images, SVG, and Canvas/Image Alt Text
+$CATEGORY: $course$/top/Default for WAS/Images, SVG, and Canvas/Image Alt Text
+
+
+// question: 129  name: Question
+::Question::[html]<p>A link to a shopping cart on an e-commerce site includes a redundant shopping cart icon.  Which of the following would be an accessible way of coding that? (check all that apply)</p{
+	~%50%<code><span style\="font-weight\: 400;">&lt;a href\="cart.html"&gt;&lt;img src\="cart.jpg" width\="25" height\="25" alt\=""&gt; Shopping Cart&lt;/a&gt;</span></code>
+	~<code>&lt;a href\="cart.html"&gt;&lt;img src\="cart.jpg" width\="25" height\="25"&gt; Shopping Cart&lt;/a&gt;</code>
+	~%50%<code>&lt;a href\="cart.html"&gt;&lt;img src\="cart.jpg" width\="25" height\="25" role\="presentation"&gt; Shopping Cart&lt;/a&gt;</code>
+	~<code>&lt;a href\="cart.html"&gt;&lt;img src\="cart.jpg" width\="25" height\="25" alt\="Shopping Cart"&gt; Shopping Cart&lt;/a&gt;</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/alt-text/">Image Alt Text</a>
+}
+
+
+// question: 130  name: Question
+::Question::[html]<p>A web page for a medical supply company has a page that aside from text only meaningful pictures of their products.  Which of the following would be most likely to be an accessible way of coding one of those images?</p>{
+	~%100%<code>&lt;img src\="stethoscope.jpg" alt\="standard stethoscope" width\="200" height\="200"&gt;</code>
+	~<code>&lt;img src\="stethoscope.jpg" alt\="" width\="200" height\="200"&gt;</code>
+	~<code>&lt;img src\="stethoscope.jpg" alt\="stethoscope.jpg" width\="200" height\="200"&gt;</code>
+	~<code>&lt;img src\="stethoscope.jpg" alt\="image of a stethoscope" width\="200" height\="200"&gt;</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/alt-text/">Image Alt Text</a>
+}
+
+
+// question: 131  name: Question
+::Question::[html]<p>Which of the following is an accessible way of coding an actionable image or an image input type?</p>{
+	~%50%<code>&lt;a href\="inbox.html"&gt;&lt;img src\="inbox.png" alt\="Inbox" width\="50" height\="50"&gt;&lt;/a&gt;</code>
+	~%50%<code>&lt;input type\="image" src\="spyglass.jpg" alt\="Search" width\="50" height\="50"&gt;</code>
+	~<code>&lt;a href\="index.html"&gt;&lt;img src\="house.png" alt\="Icon of a house" width\="50" height\="50"&gt;&lt;/a&gt;</code>
+	~<code>&lt;a href\="index.html"&gt;&lt;img src\="house.png" alt\="Icon of a house" width\="50" height\="50"&gt;&lt;/a&gt;</code>
+	####<p>Sources\:</p><ul><li><a href\="https\://dequeuniversity.com/class/images2/alt-text/actionable-links-buttons">Actionable Images (Links, Buttons, Controls)</a></li><li><a href\="https\://www.w3schools.com/tags/att_input_alt.asp">HTML &lt;input&gt; alt Attribute</a></li></ul>
+}
+
+
+// question: 132  name: Question
+::Question::[html]<p>Which of the following is true regarding animated images?</p>{
+	~%50%Images that flicker or flash more that 3 times per second can cause seizure in some people
+	~A method MUST be provided to pause, stop, or hide any prerecorded video-only content that begins playing automatically and which lasts more than 3 seconds
+	~Images that flicker or flash more that 5 times per second can cause seizure in some people
+	~%50%A method MUST be provided to pause, stop, or hide any prerecorded video-only content that begins playing automatically and which lasts more than 5 seconds
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/alt-text/animations" class\="external" target\="_blank"><span>Animated Images</span></a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Images, SVG, and Canvas/Advanced Alt Text
+$CATEGORY: $course$/top/Default for WAS/Images, SVG, and Canvas/Advanced Alt Text
+
+
+// question: 133  name: Question
+::Question::[html]<p>Which of the following is the most accessible way of providing a long description of an image of a complex chart or graph?</p>{
+	~Place a description of the chart that is at least 150 characters in length in the alt attribute of the <code>&lt;img&gt;</code> tag.
+	~Place a text description of the chart in the longdesc attribute of the <code>&lt;img&gt;</code> tag.
+	=In the <code>&lt;img&gt;</code> tag, provide a brief description using the <code>alt</code> attribute and then reference the <code>id</code> of a longer description elsewhere in the text of the page using the <code>aria-describedby</code> attribute.
+	~Embed a visible text description of the image in the image itself.
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/advanced/">Advanced Alt Text</a>
+}
+
+
+// question: 134  name: Question
+::Question::[html]<p>When is it technically okay, from the standpoint of the Web Content Accessibility Guidelines, to have text in an image? (check all that apply)</p>{
+	~When the image is a button
+	~%50%If the visual presentation of the text can be customized
+	~%50%If it is a logo
+	~When the image is the only content of a link
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/advanced/">Advanced Alt Text</a>
+}
+
+
+// question: 135  name: Question
+::Question::[html]<p>When is it bad to provide alternative text for an image?</p>{
+	~If it is for an <code>&lt;area&gt;</code> tag in an image map
+	~When the image uses SVG
+	~When the alternative text is less than 100 characters in length
+	=When it is a purely decorative background image added using the CSS background property
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/advanced/">Advanced Alt Text</a>
+}
+
+
+// question: 136  name: Question
+::Question::[html]<p>Which of the following is a true statement?</p>{
+	~The alternative text for the same image should always be the same regardless of the context it appears in
+	=It is sometimes appropriate in an alt attribute to refer to a longer description of the content that appears elsewhere on the page
+	~A shorter description of a complex diagram would be best when the user is expected to interpret that diagram for a test
+	~It is impossible to provide useful text alternatives for maps used to provide directions
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/advanced/">Advanced Alt Text</a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Images, SVG, and Canvas/SVG
+$CATEGORY: $course$/top/Default for WAS/Images, SVG, and Canvas/SVG
+
+
+// question: 137  name: Question
+::Question::[html]<p>Which of the following are advantages of vector graphics, like SVG, versus raster graphics, like JPG or GIF? (check all that apply)</p>{
+	~%33.33333%Vector graphics can be scaled without becoming pixelated
+	~%33.33333%It is theoretically possible for the end-user to customize the appearance of SVG images in ways that would be difficult or impossible to do with raster graphics, at least for inline SVG
+	~Raster graphics cannot be used for animations, while SVG can
+	~%33.33333%Vector graphics generally have smaller file size than raster graphics
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/svg/raster-vector">Raster Versus Vector Graphics</a>
+}
+
+
+// question: 138  name: Question
+::Question::[html]<p>What role should you apply to all <code>&lt;svg&gt;</code> tags that appear in web pages?</p>{
+	=img
+	~svg
+	~image/svg
+	~img/svg+xml
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/svg/svg-img">SVG as img src</a>
+}
+
+
+// question: 139  name: Question
+::Question::[html]<p>Which of the following would you need to add to the &lt;svg&gt; tag of this inline SVG to make it accessible?</span></p><p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: rgb(255, 255, 255); color\: rgb(0, 0, 0);"><span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">svg</span> <span class\="hljs-attr" style\="color\: red;">height</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"100"</span> <span class\="hljs-attr" style\="color\: red;">width</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"100"</span>&gt;</span>
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">title</span> <span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"title"</span>&gt;</span>red circle<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">title</span>&gt;</span>
+  <span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">circle</span> <span class\="hljs-attr" style\="color\: red;">cx</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"50"</span> <span class\="hljs-attr" style\="color\: red;">cy</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"50"</span> <span class\="hljs-attr" style\="color\: red;">r</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"40"</span> <span class\="hljs-attr" style\="color\: red;">stroke</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"black"</span> <span class\="hljs-attr" style\="color\: red;">stroke-width</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"3"</span> <span class\="hljs-attr" style\="color\: red;">fill</span>\=<span class\="hljs-string" style\="color\: rgb(163, 21, 21);">"red"</span> /&gt;</span>
+<span class\="hljs-tag" style\="color\: rgb(0, 0, 255);">&lt;/<span class\="hljs-name" style\="color\: rgb(0, 0, 255);">svg</span>&gt;</span></pre></p>{
+	~<code>role\="img"</code>
+	~<code>role\="img" aria-label\="image/svg"</code>
+	~<code>alt\="red circle"</code>
+	=<code>role\="img" aria-labelledby\="title"</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/svg/svg-inline">Inline SVGs</a>
+}
+
+
+// question: 140  name: Question
+::Question::[html]<p>Which of the following is the <strong>least</strong> reliably accessible way of displaying SVG in a web page?</p>{
+	~Using the <code>&lt;img&gt;</code> tag referencing the SVG file in the src attribute
+	~Inserting the SVG markup inline in the page in which it appears using the <code>&lt;svg&gt;</code> element
+	=Embedding the SVG in an <code>&lt;iframe&gt;</code> or <code>&lt;embed&gt;</code> tag, or referenced as the data attribute of an <code>&lt;object&gt;</code> tag
+	~All of the above are equally accessible
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/svg/svg-embedded">Embedded SVGs</a>
+}
+
+
+// question: 141  name: Question
+::Question::[html]<p>What is one reason why it is important to specify a background color for SVG images?</p>{
+	~Because if you don't set the background color, when the mouse pointer hovers over the image, it becomes invisible
+	=Because Windows High Contrast mode can change the background color of the page in which it appears, which can cause content to become unreadable/indistinguishable
+	~Because if you don't set the background color, any text in the SVG will not be anti-aliased
+	~Because if you don't set the background color screen reader users will be presented with a distracting cue telling them that no background color has been set
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/svg/color-contrast">SVG Color Contrast</a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Images, SVG, and Canvas/Icon Fonts
+$CATEGORY: $course$/top/Default for WAS/Images, SVG, and Canvas/Icon Fonts
+
+
+// question: 142  name: Question
+::Question::[html]<p>Which of the following are advantages of using SVG rather than icon fonts? (check all that apply)</p>{
+	~%33.33333%Only SVG icons can have multiple colors
+	~%33.33333%Only SVG icons work reliably when users change their fonts
+	~Only SVG icons can have alternative text
+	~%33.33333%Only SVG icons work reliably when images are turned off
+	####Source\: <a href\="https\://dequeuniversity.com/class/images2/icon-font/svg-as-alternative-to-icon-fonts">SVG as an Alternative to Icon Fonts</a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Visual Design and Colors
+$CATEGORY: $course$/top/Default for WAS/Visual Design and Colors
+
+
+// question: 143  name: Question
+::Question::[html]<p>Which method can be used as a visual cue along with color, so that color is not the only means of conveying information? Choose the best answer.</p>{
+	~On-screen text
+	~Pattern
+	~Symbol
+	=All of the above can be used
+}
+
+
+// question: 144  name: Question
+::Question::[html]<p><span style\="font-weight\: 400;">Which of the following is NOT a problem with the accessibility of the following code?</span></p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: \#ffffff; color\: \#000000;">&lt;p&gt;The &lt;<span class\="hljs-selector-tag" style\="color\: \#0000ff;">a</span> href\=<span class\="hljs-string" style\="color\: \#a31515;">"syllabus.html"</span> tabindex\=<span class\="hljs-string" style\="color\: \#a31515;">"1"</span>&gt;syllabus&lt;/a&gt; has all the information you need.&lt;/p&gt; \n <span class\="hljs-selector-tag" style\="color\: \#0000ff;">p</span> \{<span class\="hljs-attribute" style\="color\: \#a31515;">color</span>\:<span class\="hljs-number">\#000000</span>; <span class\="hljs-attribute" style\="color\: \#a31515;">background-color</span>\:<span class\="hljs-number">\#4DB396</span>; <span class\="hljs-attribute" style\="color\: \#a31515;">font-size</span>\:<span class\="hljs-number">1em</span>\}\n <span class\="hljs-selector-tag" style\="color\: \#0000ff;">a</span> \{<span class\="hljs-attribute" style\="color\: \#a31515;">color</span>\:<span class\="hljs-number">\#6A2C3E</span>\}\n <span class\="hljs-selector-tag" style\="color\: \#0000ff;">a</span>\:hover, <span class\="hljs-selector-tag" style\="color\: \#0000ff;">a</span>\:active, <span class\="hljs-selector-tag" style\="color\: \#0000ff;">a</span>\:focus \{ <span class\="hljs-attribute" style\="color\: \#a31515;">outline</span>\: none; <span class\="hljs-attribute" style\="color\: \#a31515;">border</span>\: <span class\="hljs-number">0</span>; \}</pre><p>See the <a class\="instructure_file_link inline_disabled" href\="https\://jsbin.com/sabipuy/1/edit?html,css,output" target\="_blank">code in JSBin</a></p>{
+	~People using keyboard to navigate the page would not know when focus was moved to the syllabus link
+	=There is insufficient contrast between the non-link text and the background
+	~There is insufficient contrast between the link text and the background
+	~There is insufficient contrast between the link text and the text which surrounds it
+}
+
+
+// question: 145  name: Question
+::Question::[html]<p>For the following code, which of the following is NOT true?</p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: \#ffffff; color\: \#000000;"><span class\="xml"><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">style</span>&gt;</span><span class\="css"><span class\="hljs-selector-id">\#steps</span><span class\="hljs-selector-tag" style\="color\: \#0000ff;">a</span> \{ <span class\="hljs-attribute" style\="color\: \#a31515;">float</span>\:right; <span class\="hljs-attribute" style\="color\: \#a31515;">padding</span>\: <span class\="hljs-number">0</span> .<span class\="hljs-number">5em</span> \}\n </span><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">style</span>&gt;</span><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">div</span><span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"steps"</span>&gt;</span><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">a</span><span class\="hljs-attr" style\="color\: red;">href</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"3.htm"</span><span class\="hljs-attr" style\="color\: red;">tabindex</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"3"</span>&gt;</span>Step 3<span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">a</span>&gt;</span><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">a</span><span class\="hljs-attr" style\="color\: red;">href</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"2.htm"</span><span class\="hljs-attr" style\="color\: red;">tabindex</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"2"</span>&gt;</span>Step 2<span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">a</span>&gt;</span><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">a</span><span class\="hljs-attr" style\="color\: red;">href</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"1.htm"</span><span class\="hljs-attr" style\="color\: red;">tabindex</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"1"</span>&gt;</span>Step 1<span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">a</span>&gt;</span><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">div</span>&gt;</span></span></pre><p>See the <a class\="instructure_file_link inline_disabled" href\="https\://jsbin.com/togovog/edit?html,css,output" target\="_blank">code in JSBin</a>.</p>{
+	~The first link that will receive focus when the user presses the TAB key will be Step 1
+	~The first content that will be read to a screen reader user on page load is Step 3
+	~The order in which links receive focus when the tab key is pressed is not affected by whether or not a screen reader is running
+	=Setting the CSS flex-direction property to row-reverse rather than using float to change the visual order of the links would have prevented the need to use the tabindex property to change the tab order to match the visual order.
+}
+
+
+// question: 146  name: Question
+::Question::[html]<p>In which instance must text meet the contrast requirement of 4.5\:1 for SC 1.4.3 Contrast (Minimum) ?</p>{
+	~It is a disabled button.
+	~It is a photo of a New York street where part of a name on a street sign is visible.
+	=It is a heading on the page.
+	~It is part of a logo.
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Responsive Design and Zoom
+$CATEGORY: $course$/top/Default for WAS/Responsive Design and Zoom
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Responsive Design and Zoom/Responsive Design
+$CATEGORY: $course$/top/Default for WAS/Responsive Design and Zoom/Responsive Design
+
+
+// question: 147  name: Question
+::Question::[html]<p>Assuming the order of the content in the DOM matches the intended reading order which two classes of users benefit most from responsive design? (check two)</p>{
+	~People who use screen readers
+	~%50%People who use mobile devices
+	~%50%Some people who are low vision
+	~People who are deaf
+	####Source\: <a href\="https\://dequeuniversity.com/class/responsive-zoom2/responsive/">Responsive Design</a>
+}
+
+
+// question: 149  name: Question
+::Question::[html]<p>For a media query set to <code>max-width\: 320px</code>, what would usually be the best way to specify the width of the image using CSS, if the image's <code>height</code> CSS property was set to <code>auto</code>?</p>{
+	~<code>width\: 320px;</code>
+	~<code>width\: 319px;</code>
+	=<code>max-width\:100%</code>
+	~<code>min-width\: 320px</code>
+	####Source\: <a href\="https\://dequeuniversity.com/class/responsive-zoom2/responsive/images">Responsive Images</a>
+}
+
+
+// question: 150  name: Question
+::Question::[html]<p>A form at desktop viewport sizes has visible <code>&lt;label&gt;</code> tags that are programmatically-associated with their input fields.  The visible labels appear to the immediate left of the fields. Of the following options, which would be the best way to responsively transform the form for mobile viewport sizes?</p>{
+	~Keep the &lt;label&gt; tags, but visibly hide them.  When a user hovers over a field, display its associated label above the field.
+	~Remove the &lt;label&gt; tags, but add the alt attribute to each &lt;input&gt; tag, setting its value to the text that was in the label.
+	~Remove the &lt;label&gt; tags and, instead, rely on placeholder text to provide the accessible name for the field, making sure the contrast ratio for the placeholder text is less than 3\:1
+	=Position the labels above their associated fields.
+	####Source\: <a href\="https\://dequeuniversity.com/class/responsive-zoom2/responsive/forms">Responsive Forms</a>
+}
+
+
+// question: 151  name: Question
+::Question::[html]<p>What is the minimum click/touch target size required to meet WCAG 2.1 AAA requirements for the web?</p>{
+	=44 by 44 CSS pixels
+	~48 by 48 CSS pixels
+	~88 by 88 CSS pixels
+	~22 by 22 CSS pixels
+	####Source\: <a href\="https\://dequeuniversity.com/class/responsive-zoom2/target-size">Touch/Click Target Size</a> and <a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#target-size">WCAG Success Criterion 2.5.5 Target Size</a>
+}
+
+
+// question: 148  name: Question
+::Question::[html]<p>No matter how a page is coded, using browser zoom functionality will not cause the display to switch to the view of the page that would be triggered by the mobile breakpoint</p>{FALSE####Source\: <a href\="https\://dequeuniversity.com/class/responsive-zoom2/responsive/responsive-desktop-designs">Responsive Desktop Designs</a>}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Responsive Design and Zoom/Zoom
+$CATEGORY: $course$/top/Default for WAS/Responsive Design and Zoom/Zoom
+
+
+// question: 152  name: Question
+::Question::[html]<p>Setting the content attribute of the viewport meta tag to <code>"width\=device-width, initial-scale\=1.0, maximum-scale\=1.0"</code> will have which of the following effects?</p>{
+	~It will prevent users from changing the default font size in their browser
+	=It will prevent pinch-to-zoom from operating correctly on some devices
+	~It will prevent users from being able to change the default line height on a page
+	~It will prevent users on desktop computers from being able to resize their browser window
+	####Source\: <a href\="https\://dequeuniversity.com/class/responsive-zoom2/zoom/mobile-zoom">Allowing Mobile Zoom</a>
+}
+
+
+// question: 153  name: Question
+::Question::[html]<p>Setting the content attribute of the viewport meta tag to "user-scalable\=no" will have which of the following effects?</p>{
+	=It will prevent users from changing the default font size in their browser
+	~It will prevent pinch-to-zoom from operating correctly on some devices
+	~It will prevent users from being able to change the default line height on a page
+	~It will prevent users on desktop computers from being able to resize their browser window
+	####Source\: <a href\="https\://dequeuniversity.com/class/responsive-zoom2/zoom/mobile-zoom">Allowing Mobile Zoom</a>
+}
+
+
+// question: 154  name: Question
+::Question::[html]<p>For mobile viewport sizes, it is best to do which of the following?</p>{
+	~Set the width of text content to a small fixed value
+	~Only set the minimum width for text content
+	~Only use non-relative units when setting widths for text content
+	=Not set the width for text content
+	####Source\: <a href\="https\://dequeuniversity.com/class/responsive-zoom2/zoom/linear-text-reflow">Linear Text Reflow</a> and <a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#reflow">WCAG Success Criterion 1.1.10 Reflow</a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Responsive Design and Zoom/Touch//Click Target Size
+$CATEGORY: $course$/top/Default for WAS/Responsive Design and Zoom/Touch//Click Target Size
+
+
+// question: 155  name: Question
+::Question::[html]<p>What is the minimum click/touch target size required to meet WCAG 2.1 AAA requirements for the web?</p>{
+	=44 by 44 CSS pixels
+	~48 by 48 CSS pixels
+	~88 by 88 CSS pixels
+	~22 by 22 CSS pixels
+	####Source\: <a href\="https\://dequeuniversity.com/class/responsive-zoom2/target-size">Touch/Click Target Size</a> and <a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#target-size">WCAG Success Criterion 2.5.5 Target Size</a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Form Labels, Instructions, and Validation
+$CATEGORY: $course$/top/Default for WAS/Form Labels, Instructions, and Validation
+
+
+// question: 156  name: Question
+::Question::[html]<p>Which of the following is NOT a reason to programmatically associate a label with its associated form control?</p>{
+	=Because unless you do this, keyboard users will not be able to activate the control by tabbing to it
+	~Because otherwise the label for the form control will not reliably be read when screen reader users tab to it
+	~Because the control will show up as unlabelled when screen reader users bring up a list of form controls using special key commands
+	~Because unless you do this, people using speech recognition software to control their computer may not be able to access the control by saying its name
+}
+
+
+// question: 157  name: Question
+::Question::[html]<p>Which of the following is a valid way of providing a programmatically associated label for a form control?</p>{
+	~<code>&lt;div&gt;First name\: &lt;input type\="text" name\="first"&gt;&lt;/div&gt;</code>
+	~<code>&lt;div&gt;&lt;label&gt;First name\:&lt;/label&gt; &lt;input type\="text" name\="first"&gt;&lt;/div&gt;</code>
+	~<code>&lt;div&gt;&lt;input label\="First name" type\="text" name\="first"&gt;&lt;/div&gt;</code>
+	=<code>&lt;div&gt;&lt;label for\="first"&gt;First name\:&lt;/label&gt; &lt;input id\="first" type\="text" name\="first"&gt;&lt;/div&gt;</code>
+}
+
+
+// question: 158  name: Question
+::Question::[html]<p>Which of the following is the <strong>best</strong> way of labelling a form control?</p>{
+	~<code>&lt;label&gt;Age\: &lt;input type\="number" name\="age"&gt;&lt;/label&gt;</code>
+	~<code>&lt;span id\="age"&gt;Age\: &lt;/span&gt; &lt;input type\="number" name\="age" aria-labelledby\="age"&gt;</code>
+	~<code>&lt;input aria-label\="Age" type\="number" name\="age"&gt;</code>
+	=<code>&lt;label for\="age"&gt;Age\:&lt;/label&gt; &lt;input id\="age" type\="number" name\="age"&gt;</code>
+}
+
+
+// question: 159  name: Question
+::Question::[html]<p>Which of the following is NOT a reason for avoiding the use of the placeholder attribute as the label for a text field?</p>{
+	=Because placeholder text will not be announced as the accessible name for a form control by screen readers
+	~Because it disappears as soon as you start typing
+	~Because the default styling for placeholder text fails contrast rules
+	~Because the intended use of placeholder text is for extra, non-essential information
+}
+
+
+// question: 160  name: Question
+::Question::[html]<p>Why should you avoid using images of text as labels for form controls?</p>{
+	~Because the alt attribute cannot be used to provide the accessible name for a form control
+	~Because if the image is the only content of a label tag, when the user clicks on the image it will not set focus to the form control
+	=Because the text in images cannot be customized for users with low vision in the same way that regular text can
+	~Because users of speech recognition software cannot activate controls by voice if they are labelled using images
+}
+
+
+// question: 161  name: Question
+::Question::[html]<p>Which of the following provides the best label for a select box (<code>&lt;select&gt;</code>) that displays a list of color options to choose from?</p>{
+	~<code>&lt;label for\="colors"&gt;Select\: &lt;/label&gt;</code>
+	~<code>&lt;label for\="colors"&gt;Colors select box\: &lt;/label&gt;</code>
+	=<code>&lt;label for\="colors"&gt;Colors\: &lt;/label&gt;</code>
+	~<code>&lt;label for\="colors"&gt;Select a color (red, orange, yellow, green, blue, indigo, or violet)\: &lt;/label&gt;</code>
+}
+
+
+// question: 162  name: Question
+::Question::[html]<p>Which of the following provides the best accessible name for a submit button for a search form that looks like a magnifying glass icon?</p>{
+	~Magnifying glass icon
+	~Submit icon
+	=Search
+	~Magnifying glass
+}
+
+
+// question: 163  name: Question
+::Question::[html]<p>Which of the following techniques would best ensure that all users know which fields in a form are required?</p>{
+	~Make the border for all required form fields red and include a note at the top of the form indicating all required fields are outlined in red
+	~Add an asterisk character beside all required fields
+	~Add aria-required\="true" to all required fields
+	=Make sure the visible text label for all required fields includes the word "required" and the fields themselves have the required attribute
+}
+
+
+// question: 164  name: Question
+::Question::[html]<p>A web-based email service allows users to delete messages by clicking an icon button whose aria-label attribute is set to "Delete Message".  The icon chosen looks like the null symbol, which is a circle with a diagonal slash through it. Which of the following is a reason why this might present a barrier?</p>{
+	~Because aria-label cannot be used to provide buttons with an accessible name
+	~Because the text of aria-label must include a description of the role of the element, in this instance, "Delete Message Button"
+	=Because the purpose of the null symbol, as described, would probably not be visually self-evident to most users
+	~Because all buttons must include visual text
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Dynamic Updates, AJAX, and Single-Page Apps
+$CATEGORY: $course$/top/Default for WAS/Dynamic Updates, AJAX, and Single-Page Apps
+
+
+// question: 165  name: Question
+::Question::[html]<p>Which of the following is NOT a way to reliably notify blind users of dynamic changes to content on a page?</p>{
+	~Sending focus to new content
+	~Using ARIA live regions
+	~Changing the state values of interface components, for instance aria-expanded
+	=Removing content from the DOM and replacing it with the changed content
+}
+
+
+// question: 166  name: Question
+::Question::[html]<p>Which of the following is screen reading software likely to do automatically upon loading a new page?</p>{
+	~State the language of the page, if provided through the lang attribute
+	=Read the page title
+	~Announce how many words are on a page
+	~Jump to the main content region and begin reading from there
+}
+
+
+// question: 167  name: Question
+::Question::[html]<p>A user has just entered the text string “registration deadline” in a site search field on a university website and hit the submit button.  What would be most likely to be the best title for the results page that loads?</p>{
+	~Virginia Tech | Search
+	~Search | Virginia Tech
+	=Search results for “Registration deadline” | Virginia Tech
+	~Search results | Virginia Tech
+}
+
+
+// question: 168  name: Question
+::Question::[html]<p>Beside each item listed on the checkout page is a select box labelled “Quantity” that, when changed, dynamically updates the part of the page where the subtotal is displayed.  Which of the following is the best way to ensure blind users are notified of the change?</p>{
+	~Move focus to the part of the page that displays the subtotal any time the user changes the selected value in the quantity select box
+	=Ensure the element containing the subtotal has aria-live\=”polite”
+	~Update the aria-subtotal attribute of the select tag that is being used for setting the quantity
+	~Do nothing.  Any text that changes on a page will automatically be announced.
+}
+
+
+// question: 169  name: Question
+::Question::[html]<p>You want a screen reader to announce new content by setting focus to it when the user clicks a button, but it is not being voiced.  What might you have to do to fix this?</p>{
+	=Add a delay of one second before setting focus to the new content
+	~Set the value of the aria-hidden on the button to false
+	~Set the value of aria-live on the button to assertive
+	~Make sure the display property of the newly added content is not set to block
+}
+
+
+// question: 170  name: Question
+::Question::[html]<p>Which is usually the preferred strategy for dealing with lazy-loading content?</p>{
+	=Provide placeholder content to inform screen reader users that content is loading
+	~Use ARIA live regions to announce each time a new piece content loads
+	~Use placeholder content while content is loading and use ARIA live regions to announce as content loads
+	~Leave the place where content is loading empty until the content is loaded
+	####Source\: <a href\="https\://dequeuniversity.com/class/dynamic-updates2/ajax/lazy-loading" class\="external" target\="_blank"><span>Lazy Loading</span></a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Custom JavaScript//ARIA Widgets
+$CATEGORY: $course$/top/Default for WAS/Custom JavaScript//ARIA Widgets
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Custom JavaScript//ARIA Widgets/Part 1
+$CATEGORY: $course$/top/Default for WAS/Custom JavaScript//ARIA Widgets/Part 1
+
+
+// question: 171  name: Question
+::Question::[html]<p>According to the Accessible Name and Description Computation algorithm, what should be the accessible name for the link in the following code snippet?</p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: \#ffffff; color\: \#000000;"><code><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">a</span><span class\="hljs-attr" style\="color\: red;">href</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"acme.html"</span><span class\="hljs-attr" style\="color\: red;">aria-label</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"Your widget superstore"</span>&gt;</span>Acme widgets<span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">a</span>&gt;</span></code></pre>{
+	~Acme widgets
+	=Your widget superstore
+	~Acme widgets Your widget superstore
+	~Acme.html
+}
+
+
+// question: 172  name: Question
+::Question::[html]<p>According to the Accessible Name and Description Computation algorithm, what should be the accessible name for the link in the following code snippet? </p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: \#ffffff; color\: \#000000;"><code><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">a</span><span class\="hljs-attr" style\="color\: red;">href</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"index.html"</span>&gt;</span><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">img</span><span class\="hljs-attr" style\="color\: red;">src</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"home.png"</span><span class\="hljs-attr" style\="color\: red;">alt</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"Home"</span>&gt;</span> Virginia Tech<span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">a</span>&gt;</span></code></pre>{
+	~Home
+	~home.png
+	~Virginia Tech
+	=Home Virginia Tech
+}
+
+
+// question: 173  name: Question
+::Question::[html]<p>According to the Accessible Name and Description Computation algorithm, what should be the accessible name for the checkbox in the following code snippet?</p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: \#ffffff; color\: \#000000;"><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">span</span><span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"name"</span>&gt;</span>Rob<span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">span</span>&gt;</span> ... \n <span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">span</span><span class\="hljs-attr" style\="color\: red;">id</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"agreed"</span>&gt;</span>Agree<span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">span</span>&gt;</span> ... \n <span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">input</span><span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"checkbox"</span><span class\="hljs-attr" style\="color\: red;">name</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"agreement"</span><span class\="hljs-attr" style\="color\: red;">aria-labelledby</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"name agreed"</span>&gt;</span></pre>{
+	=Rob Agree
+	~agreement
+	~name agree
+	~checkbox agreement
+}
+
+
+// question: 174  name: Question
+::Question::[html]<p>With all else being equal, which of the following would be the best way of creating a level 1 heading?</p>{
+	~&lt;div role\="heading" aria-level\="1"&gt;Acme Widgets&lt;/div&gt;
+	~&lt;div role\="heading"&gt;Acme Widgets&lt;/div&gt;
+	=&lt;h1&gt;Acme Widgets&lt;/h1&gt;
+	~&lt;h1 aria-level\="1"&gt;Acme Widgets&lt;/h1&gt;
+}
+
+
+// question: 175  name: Question
+::Question::[html]<p>What is wrong with the following code?</p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: \#ffffff; color\: \#000000;"><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">div</span>&gt;</span>Capital\:\n  <span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">input</span><span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"text"</span><span class\="hljs-attr" style\="color\: red;">name</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"city"</span><span class\="hljs-attr" style\="color\: red;">title</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"City"</span>&gt;</span><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">input</span><span class\="hljs-attr" style\="color\: red;">type</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"text"</span><span class\="hljs-attr" style\="color\: red;">name</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"country"</span><span class\="hljs-attr" style\="color\: red;">title</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"Country"</span>&gt;</span><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">div</span>&gt;</span></pre>{
+	~The title attribute is unnecessary, since the fields are already supplied with a label using the name attribute
+	~The title attribute is unnecessary, since the fields are already labelled by the word "Capital\:"
+	=The text in the title attribute will only reliably be visibly displayed when someone is accessing it using a mouse
+	~The title attribute does not provide an accessible name that will be read by screen reading software
+}
+
+
+// question: 176  name: Question
+::Question::[html]<p>Which of the following is least likely to be reliably announced by a screen reader as "Web Accessibility Initiative"?</p>{
+	~&lt;span aria-label\="Web Accessibility Initiative"&gt;W3C&lt;/span&gt;
+	~&lt;a href\="http\://w3.org/" aria-label\="Web Accessibility Initiative"&gt;W3C&lt;/a&gt;
+	~&lt;img src\="w3c.png" title\="Web Accessibility Initiative"&gt;
+	=&lt;a href\="http\://w3.org/" aria-label\="W3C"&gt;Web Accessibility Initiative&lt;/a&gt;
+}
+
+
+// question: 177  name: Question
+::Question::[html]<p>A web page has two different navigation regions that both use the <code>&lt;nav&gt;</code> tag.  Which of the following should you do to ensure these are optimally accessible?</p>{
+	~Remove one of the <code>&lt;nav&gt;</code> tags because there can only be one <code>&lt;nav&gt;</code> tag per page
+	=Use <code>aria-label</code> or <code>aria-labelledby</code> to give them different labels, so users can easily tell which is which
+	~Make sure each one contains a heading tag
+	~Make sure one is in a <code>banner</code> landmark region and the other is in a <code>contentinfo</code> landmark region
+}
+
+
+// question: 178  name: Question
+::Question::[html]<p>Which of the following is a reason why should you usually avoid using <code>role\="application"</code>?</p>{
+	~Because <code>application</code> is not a valid role
+	=Because application regions disable useful screen reader keyboard shortcuts
+	~Because all useful interaction patterns are already defined by other more specific roles
+	~Because doing so will prevent users from using the Tab key to navigate between focusable items in the region.
+}
+
+
+// question: 179  name: Question
+::Question::[html]<p>Which of the following is NEVER a valid landmark role?</p>{
+	=group
+	~region
+	~form
+	~banner
+}
+
+
+// question: 180  name: Question
+::Question::[html]<p>Which of the following HTML tags is <i>always</i> a landmark region?  Check all that apply.</p>{
+	~%33.33333%&lt;nav&gt;
+	~&lt;header&gt;
+	~%33.33333%&lt;complementary&gt;
+	~%33.33333%&lt;search&gt;
+	####<p>The <code>&lt;header&gt;</code> tag is only a landmark region when it is scoped to the <code>body</code> element.  Source the <a class\="instructure_file_link inline_disabled" href\="https\://www.w3.org/TR/html-aam-1.0/" target\="_blank">HTML Accessibility API Mappings 1.0</a>, specifically\:</p><ul><li><a class\="instructure_file_link inline_disabled" href\="https\://www.w3.org/TR/html-aam-1.0/\#details-id-46" target\="_blank"><code>header</code><span> (scoped to the </span><code>body</code><span> element)</span></a></li><li><a class\="instructure_file_link inline_disabled" href\="https\://www.w3.org/TR/html-aam-1.0/\#details-id-47" target\="_blank"><span><code>header</code> (scoped to the <code>main</code> element, a sectioning content element, or a sectioning root element other than <code>body</code>)</span></a></li></ul>
+}
+
+
+// question: 181  name: Question
+::Question::[html]<p>Which of the following HTML tags is <i>always</i> a landmark region?</p>{
+	~&lt;input type\="search"&gt;
+	~&lt;article&gt;
+	=&lt;main&gt;
+	~&lt;fieldset&gt;
+	####<p><a class\="instructure_file_link inline_disabled" href\="https\://www.w3.org/TR/wai-aria/\#landmark_roles" target\="_blank">Section 5.3.4 Landmark Roles</a> in <a class\="instructure_file_link inline_disabled" href\="https\://www.w3.org/TR/wai-aria" target\="_blank">Accessible Rich Internet Applications (<abbr title\="Accessible Rich Internet Applications">WAI-ARIA</abbr>) 1.1</a></p>
+}
+
+
+// question: 182  name: Question
+::Question::[html]<p>Which HTML tag is equivalent to the navigation role?</p>{
+	=&lt;nav&gt;
+	~&lt;navigation&gt;
+	~&lt;dl&gt;
+	~&lt;datalist&gt;
+}
+
+
+// question: 183  name: Question
+::Question::[html]<p>Which HTML tag is equivalent to the complementary role?</p>{
+	~&lt;col&gt;
+	=&lt;aside&gt;
+	~&lt;colgroup&gt;
+	~&lt;complementary&gt;
+}
+
+
+// question: 184  name: Question
+::Question::[html]<p>When scoped to the <code>&lt;body&gt;</code> tag, which HTML tag is equivalent to <code>role\="banner"</code>?</p>{
+	~&lt;banner&gt;
+	~&lt;head&gt;
+	=&lt;header&gt;
+	~&lt;thead&gt;
+}
+
+
+// question: 185  name: Question
+::Question::[html]<p>When scoped to the <code>&lt;body&gt;</code> tag, which HTML tag is equivalent to <code>role\="contentinfo"</code>?</p>{
+	=&lt;footer&gt;
+	~&lt;contentinfo&gt;
+	~&lt;tfoot&gt;
+	~&lt;address&gt;
+}
+
+
+// question: 186  name: Question
+::Question::[html]<p>What is one reason why is it important to use the appropriate ARIA roles when creating custom widgets, such as tabbed interfaces?</p>{
+	~Because applying the correct role automatically applies the correct keyboard navigation behavior
+	~Because roles define the state a particular control is in
+	=Because they communicate to screen reader users the kind of control they are encountering
+	~Because without setting the correct role, certain users will not have permission to use the widget
+}
+
+
+// question: 187  name: Question
+::Question::[html]<p>Which of the following is an ARIA widget role?</p>{
+	~banner
+	~navigation
+	~range
+	=menu
+}
+
+
+// question: 188  name: Question
+::Question::[html]<p>What is one reason why it would usually be better to use a &lt;button&gt; tag, rather than assign the button ARIA role to a &lt;span&gt; tag?</p>{
+	=Because you would need to use JavaScript to create the expected behavior for a button, such as responding to click and spacebar keypress events
+	~Because screen reader shortcuts keys that allow you to list and navigate between buttons will not work
+	~Because the &lt;span&gt; tag will not be announced by a screen reader as a button, even when the button role has been applied
+	~Because it is impossible to indicate that a button created this way is disabled
+}
+
+
+// question: 189  name: Question
+::Question::[html]<p>Which of the following is true regarding the document role?</p>{
+	~You need to explicitly add role\=”document” to the &lt;html&gt; tag of all HTML pages in order to ensure that standard document reading keyboard shortcuts are available to screen reader users
+	~The document role is equivalent to the &lt;main&gt; HTML tag
+	=The primary reason for explicitly assigning the document role to an element is to create a document region inside of some other type of region such as an application region
+	~Standard screen reader document reading keyboard shortcuts, such as the ability to navigate by heading, are available in both document and application regions
+}
+
+
+// question: 190  name: Question
+::Question::[html]<p>Which of the following statements is NOT true regarding the application role?</p>{
+	~People can still tab to links and form elements in an application region
+	~People can still activate a link or button in an application region by pressing the Enter or Return key when it has focus
+	=People cannot activate buttons in application regions by pressing the space bar key when the button has focus
+	~People can still use arrow keys to choose elements within &lt;select&gt; lists that appear in application regions
+}
+
+
+// question: 191  name: Question
+::Question::[html]<p>Which of the following is a way to make paragraph text that appears inside of an application region readable by screen reader users?</p>{
+	~A) Make the paragraph focusable by adding tabindex\=”0” to the &lt;p&gt; tag
+	~B) Programmatically associate the paragraph with a focusable element in the application region
+	~C) Add aria-hidden\=”false” to the &lt;p&gt; tag
+	=D) Both A and B
+}
+
+
+// question: 192  name: Question
+::Question::[html]<p>Which of the following is NOT a reason why you should generally avoid making a lengthy paragraph focusable solely for the purpose of making it readable to screen readers?</p>{
+	~Paragraphs are not usually focusable and so users may incorrectly assume that the text they’ve tabbed to is some sort of an interactive control.
+	~Screen reader users may not be able to pause the reading of the text in the paragraph and resume reading where it had paused
+	~Users may not be able to use standard document reading commands that would let them back up a few words and reread content they may have missed.
+	=Pressing the Enter or Return key when a paragraph has focus will always cause any forms in the application region to submit
+}
+
+
+// question: 193  name: Question
+::Question::[html]<p>Which of the following roles would automatically invoke Application mode in a screen reader?</p>{
+	~list
+	=tablist
+	~table
+	~banner
+}
+
+
+// question: 194  name: Question
+::Question::[html]<p>Without further modification, why would the following code be problematic?</p><pre class\="hljs" style\="display\: block; overflow-x\: auto; padding\: 0.5em; background\: \#ffffff; color\: \#000000;"><span class\="hljs-tag" style\="color\: \#0000ff;">&lt;<span class\="hljs-name" style\="color\: \#0000ff;">a</span><span class\="hljs-attr" style\="color\: red;">href</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"index.html"</span><span class\="hljs-attr" style\="color\: red;">role</span>\=<span class\="hljs-string" style\="color\: \#a31515;">"presentation"</span>&gt;</span>Home<span class\="hljs-tag" style\="color\: \#0000ff;">&lt;/<span class\="hljs-name" style\="color\: \#0000ff;">a</span>&gt;</span></pre>{
+	=Because screen reader users could still tab to the link and activate it, but it wouldn’t be announced as a link.
+	~Because the <code>presentation</code> role can only be applied to the <code>&lt;img&gt;</code> tag
+	~Because the <code>presentation</code> role has been deprecated in favor of the role, <code>none</code>.
+	~Because <code>aria-hidden\="true"</code> does the same thing as <code>role\="presentation"</code> and is better supported
+}
+
+
+// question: 195  name: Question
+::Question::[html]<p>Which of the following code examples would NOT result in content being ignored by a screen reader?</p>{
+	=&lt;img src\="close.jpg"&gt;
+	~&lt;img src\="close.jpg" alt\=""&gt;
+	~&lt;img src\="close.jpg" role\="presentation"&gt;
+	~&lt;img src\="close.jpg" style\="display\:none"&gt;
+}
+
+
+// question: 196  name: Question
+::Question::[html]<p>Which of the following code examples would NOT be announced as a heading by a screen reader?</p>{
+	~&lt;h2&gt;Abstract&lt;/h2&gt;
+	=&lt;h2 role\="presentation"&gt;Abstract&lt;/h2&gt;
+	~&lt;p role\="heading” aria-level\="2"&gt;Abstract&lt;/h2&gt;
+	~&lt;h2 aria-hidden\="false"&gt;Abstract&lt;/h2&gt;
+}
+
+
+// question: 197  name: Question
+::Question::[html]<p>What is the difference between the <code>note</code> role and the <code>complementary</code> role?</p>{
+	=A note is not a landmark region
+	~There is no difference; they are equivalent
+	~Content with the <code>note</code> role should relate to the main content, but be at a similar level in the DOM and be meaningful when separated from that main content
+	~<p>The <code>note</code> role is equivalent to the <code>&lt;aside&gt;</code> HTML tag, whereas the <code>contentinfo</code> role is equivalent to the <code>&lt;footer&gt;</code> HTML tag.</p>
+}
+
+
+// question: 198  name: Question
+::Question::[html]<p>Where might the <code>directory</code> role be used in the Deque University course?</p>{
+	~The list of supplemental resources at the end of some lessons
+	=For the table of contents listed under the heading "On this page\:"
+	~Applied to all headings lower than <code>&lt;h1&gt;</code>
+	~Applied to the Account Details form on your Profile page
+}
+
+
+// question: 199  name: Question
+::Question::[html]<p>Should you ever assign an abstract role to an element in a web page?</p>{
+	~Yes
+	=No
+}
+
+
+// question: 200  name: Question
+::Question::[html]<p>What would NOT be an appropriate use for <code>aria-describedby</code>?</p>{
+	~Applied to a text field pointing to the ID of visible text that contains brief instructions for how to fill out the field.
+	~To give an alert dialog an accessible description by referencing the content of the dialog, which contains the dialog's primary message or purpose.
+	=Applied to a text field pointing to the ID of invisible text (<code>display\:none</code>) that contains instructions that are essential for all users to know in order to enter the correct info in the field.
+	~Applied to a text field pointing to the ID of invisible text (<code>display\:none</code>) that is only relevant to screen reader users.
+}
+
+
+// question: 201  name: Question
+::Question::[html]<p>Will a live region with text in it on page load reliably be read automatically by screen readers?</p>{
+	~Yes
+	=No
+}
+
+
+// question: 202  name: Question
+::Question::[html]<p>What value should you set aria-atomic to for a region that dynamically displays chat messages?</p>{
+	~true
+	=false
+	~polite
+	~assertive
+}
+
+
+// question: 203  name: Question
+::Question::[html]<p>If that chat region only keeps the last 10 messages, removing a message every time it adds one, what should the value of aria-relevant be?</p>{
+	=additions
+	~removals
+	~all
+	~true
+}
+
+
+// question: 204  name: Question
+::Question::[html]<p>Which of the following live region types are set to aria-live\="assertive" by default?</p>{
+	~timer
+	~status
+	~log
+	=alert
+}
+
+
+// question: 205  name: Question
+::Question::[html]<p>Which of the following live region types are set to aria-live\="polite" by default?</p>{
+	=status
+	~timer
+	~marquee
+	~alert
+}
+
+
+// question: 206  name: Question
+::Question::[html]<p>Which of the following live region types are set to aria-live\="off" by default?</p>{
+	~log
+	=timer
+	~alert
+	~status
+}
+
+
+// question: 207  name: Question
+::Question::[html]<p>Where is the best place to look for keyboard best practices for different kinds of widgets?</p>{
+	=WAI-ARIA Authoring Practices
+	~Web Content Accessibility Guidelines
+	~Section 508
+	~Accessible Rich Internet Applications Specification
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Custom JavaScript//ARIA Widgets/Part 2
+$CATEGORY: $course$/top/Default for WAS/Custom JavaScript//ARIA Widgets/Part 2
+
+
+// question: 208  name: Question
+::Question::[html]<p><span style\="font-weight\: 400;">Elements with which of the following roles should NOT be able to be activated with the spacebar key, assuming you are following standard keyboard interaction models?</span></p>{
+	~button
+	=link
+	~checkbox
+	~radio
+}
+
+
+// question: 209  name: Question
+::Question::[html]<p><span style\="font-weight\: 400;">An element with a role of tablist must contain a child with what role?</span></p>{
+	~tabpanel
+	=tab
+	~listitem
+	~button
+}
+
+
+// question: 210  name: Question
+::Question::[html]<p><span style\="font-weight\: 400;">Which of the following is NOT a required attribute for the slider role?</span></p>{
+	~aria-valuemin
+	~aria-valuemax
+	=aria-valuetext
+	~aria-valuenow
+}
+
+
+// question: 211  name: Question
+::Question::[html]<p><span style\="font-weight\: 400;">Which of the following is an acceptable value for the aria-checked attribute?</span></p>{
+	~checked
+	=mixed
+	~selected
+	~partial
+}
+
+
+// question: 212  name: Question
+::Question::[html]<p><span style\="font-weight\: 400;">What attribute do you set to indicate whether a radio button has been selected?</span></p>{
+	~aria-selected
+	=aria-checked
+	~aria-expanded
+	~aria-true
+}
+
+
+// question: 213  name: Question
+::Question::[html]<p><span style\="font-weight\: 400;">Which property do you set to indicate the currently selected tab?</span></p>{
+	~aria-valuetext
+	~aria-controls
+	~aria-checked
+	=aria-selected
+}
+
+
+// question: 214  name: Question
+::Question::[html]<p>Assuming you are strictly following the Tooltip pattern as described in the ARIA Authoring Practices, how do you set focus to a tooltip?</p>{
+	~By pressing the tab key
+	~By pressing the up arrow key
+	~By pressing the F1 key
+	=This is a trick question. A tooltip does not receive focus.
+}
+
+
+// question: 215  name: Question
+::Question::[html]<p>Where should focus be set when a dialog is closed?</p>{
+	=It should be set to the element that triggered the initial appearance of dialog, if it still exists.
+	~It should always be set to the first heading of the containing page.
+	~You should not explicitly set focus to any element when closing a dialog.
+	~It should be set to the first focusable element of the containing page.
+}
+
+
+// question: 216  name: Question
+::Question::[html]<p>Assuming you are strictly following the Tabs pattern as described in the ARIA Authoring Practices, then, when focus is on a tab element in a horizontal tab list, what key would you press to set focus to the next tab in the tab list?</p>{
+	~The tab key
+	=The right arrow key
+	~The down arrow key
+	~The plus key
+}
+
+
+// question: 217  name: Question
+::Question::[html]<p>Assuming you are strictly following the Tree View pattern for a vertically-oriented tree as described in the ARIA Authoring Practices, what should happen if you press the right arrow key when focus is on a closed node?</p>{
+	~Nothing
+	~The node opens and focus moves to the first child node
+	=The node opens and focus does not move
+	~Focus moves to the next closed node in the tree
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Designing and Accessible User Experience
+$CATEGORY: $course$/top/Default for WAS/Designing and Accessible User Experience
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Designing and Accessible User Experience/Universal Design for the Physical World
+$CATEGORY: $course$/top/Default for WAS/Designing and Accessible User Experience/Universal Design for the Physical World
+
+
+// question: 232  name: Question
+::Question::[html]<p><span>Match the examples with the most appropriate Universal Design principle.</span></p>{
+	=Sidewalks that are wheelchair accessible and have curb cuts that orient people who are blind, assist people with motor disabilities and people who walk with objects such as carts and strollers -> Principle 1, Equitable Use
+	=Detectable warnings built into curb cuts that warn people who are blind that they are approaching a street -> Principle 4, Perceptible Information
+	=Sidewalks that are smooth and absent of bumps and cracks -> Principle 6, Low Physical Effort
+	=Width of sidewalk allows for use of assistive technologies (e.g., rollators, wheelchairs) -> Principle 7, Size and Space for Approach and Use
+	####<p><strong>Source\:</strong> Deque University &gt; IAAP CPACC Certification Preparation&gt; <a class\="external" href\="https\://dequeuniversity.com/class/iaap-cpacc1/universal-design-physical-world/" target\="_blank"><span>Universal Design for the Physical World</span></a> (Different Sections)</p>
+}
+
+
+// question: 233  name: Question
+::Question::[html]<p>Match the examples with the most appropriate Universal Design principle.</p>{
+	=Same entrance to the building for all people (instead of a main entrance for people who can walk up stairs and a separate entrance for people in wheelchairs) -> Principle 1, Equitable Use
+	=Buttons on elevators that are tactile or have Braille on them -> Principle 4, Perceptible Information
+	=Doors that have lever handles that require less effort to operate -> Principle 6, Low Physical Effort
+	=Bathrooms that provide sufficient space for maneuverability of body and assistive technologies -> Principle 7, Size and Space for Approach and Use
+}
+
+
+// question: 234  name: Question
+::Question::[html]<p>Match the examples with the most appropriate Universal Design principle.</p>{
+	=Drinking fountains that are placed at varying heights to accommodate different users -> Principle 2, Flexibility in Use
+	=Drinking fountains that have auto-detecting features -> Principle 6, Low Physical Effort
+	=Both audible and visual arrival announcements at train stations -> Principle 4, Perceptible Information
+	=Turnstiles and gates that are large enough and wide enough for wheelchairs and various people to use -> Principle 7, Size and Space for Approach and Use
+	####<p><strong>Source\:</strong> Deque University &gt; IAAP CPACC Certification Preparation&gt; <a class\="external" href\="https\://dequeuniversity.com/class/iaap-cpacc1/universal-design-physical-world/" target\="_blank"><span>Universal Design for the Physical World</span></a> (Different Sections)</p>
+}
+
+
+// question: 235  name: Question
+::Question::[html]<p>Match the examples with the most appropriate Universal Design principle.</p>{
+	=Transportation systems that allow mobile devices to provide alerts regarding information and announcements -> Principle 4, Perceptible Information
+	=Taxis that have wheelchair access -> Principle 2, Flexibility in Use
+	=Touchscreens that have larger clickable areas and fonts help prevent people who are visually impaired or have motor disabilities from making mistakes, communicate mistakes, and help users recover from those mistakes -> Principle 5, Tolerance for Error
+	=Emergency exit routes that are accessible and usable for all people -> Principle 1, Equitable Use
+	####<p><strong>Source\:</strong> Deque University &gt; IAAP CPACC Certification Preparation&gt; <a class\="external" href\="https\://dequeuniversity.com/class/iaap-cpacc1/universal-design-physical-world/" target\="_blank"><span>Universal Design for the Physical World</span></a> (Different Sections)</p>
+}
+
+
+// question: 236  name: Question
+::Question::[html]<p>Match the examples with the most appropriate Universal Design principle.</p>{
+	=Smoke detectors and other alarm systems that have flashing lights and audio sounds -> Principle 4, Perceptible Information
+	=In grocery store, shelves, product markers, product information, and prices that can be exposed to portable devices -> Principle 1, Equitable Use
+	=In grocery stores, helves placed at lower heights to accommodate diverse needs of shoppers -> Principle 2, Flexibility in Use
+	=For self check-in/checkout systems, having larger clickable areas and fonts help prevent users who are visually impaired or have motor disabilities from making mistakes and recover -> Principle 5, Tolerance for Error
+	####<p><strong>Source\:</strong> Deque University &gt; IAAP CPACC Certification Preparation&gt; <a class\="external" href\="https\://dequeuniversity.com/class/iaap-cpacc1/universal-design-physical-world/" target\="_blank"><span>Universal Design for the Physical World</span></a> (Different Sections)</p>
+}
+
+
+// question: 237  name: Question
+::Question::[html]<p>Match the examples with the most appropriate Universal Design principle.</p>{
+	=Standardized signs that have depictions that are visually intuitive and communicate important information in a simple manner -> Principle 3, Simple and Intuitive Use
+	=Visual signs that also present the same information in audio and Braille formats -> Principle 4, Perceptible Information
+	=In grocery stores, helves placed at lower heights to accommodate diverse needs of shoppers -> Principle 2, Flexibility in Use
+	=Movie theaters that have wide aisles and seating for those who use assistive technologies -> Principle 7, Size and Space for Approach and Use
+	####<p><strong>Source\:</strong> Deque University &gt; IAAP CPACC Certification Preparation&gt; <a class\="external" href\="https\://dequeuniversity.com/class/iaap-cpacc1/universal-design-physical-world/" target\="_blank"><span>Universal Design for the Physical World</span></a> (Different Sections)</p>
+}
+
+
+// question: 238  name: Question
+::Question::[html]<p>Match the examples with the most appropriate Universal Design principle.</p>{
+	=Televisions that allow the use of personal or assistive devices, or voice control, to operate hardware -> Principle 2, Flexibility in Use
+	=Remote controls with fewer buttons that make using the television and program menus easier -> Principle 3, Simple and Intuitive Use
+	=Televisions that have clearer, larger visuals and audio output for on-screen menu options -> Principle 4, Perceptible Information
+	=Televisions that have clearer, larger visuals and audio output for on-screen menu options -> Principle 1, Equitable Use
+	####<p><strong>Source\:</strong> Deque University &gt; IAAP CPACC Certification Preparation&gt; <a class\="external" href\="https\://dequeuniversity.com/class/iaap-cpacc1/universal-design-physical-world/" target\="_blank"><span>Universal Design for the Physical World</span></a> (Different Sections)</p>
+}
+
+
+// question: 239  name: Question
+::Question::[html]<p>Match the examples with the most appropriate Universal Design principle.</p>{
+	=Movie theaters that provide assistive devices that allow viewers to amplify audio, listen to audio description, or view captions for movies -> Principle 4, Perceptible Information
+	=ATMs that have tactile interfaces, such as dials, or touchscreen interface and larger buttons -> Principle 2, Flexibility in Use
+	=Electronic doors with sensors and flat entryways that everyone can use -> Principle 6, Low Physical Effort
+	=Elevators provided for access to multiple levels in buildings that can be used by a wide variety of people -> Principle 1, Equitable Use
+	####<p><strong>Source\:</strong> Deque University &gt; IAAP CPACC Certification Preparation&gt; <a class\="external" href\="https\://dequeuniversity.com/class/iaap-cpacc1/universal-design-physical-world/" target\="_blank"><span>Universal Design for the Physical World</span></a> (Different Sections)</p>
+}
+
+
+// question: 218  name: Question
+::Question::[html]<p>Which of the following is NOT one of the Principles of Universal Design?</p>{
+	~Equitable Use
+	=Legal Protection
+	~Tolerance for Error
+	~Low Physical Effort
+}
+
+
+// question: 219  name: Question
+::Question::[html]<p>Arranging information consistent with its importance best exemplifies which Universal Design principle?</p>{
+	~Flexibility in Use
+	~Equitable Use
+	=Simple and Intuitive Use
+	~Tolerance for Error
+}
+
+
+// question: 220  name: Question
+::Question::[html]<p>Allowing users to maintain a neutral body position best exemplifies which Universal Design principle?</p>{
+	=Low Physical Effort
+	~Perceptible Information
+	~Tolerance for Error
+	~Flexibility in Use
+}
+
+
+// question: 221  name: Question
+::Question::[html]<p>Providing adequate space for the use of assistive devices or personal assistance best exemplifies which Universal Design principle?</p>{
+	~Low Physical Effort
+	~Perceptible Information
+	=Size and Space for Approach and Use
+	~Flexibility in Use
+}
+
+
+// question: 222  name: Question
+::Question::[html]<p>Which of the following is NOT an example of a way to provide tolerance for error?</p>{
+	~Using rounded corners for sinks and countertops
+	~Ensuring a battery unit cannot be installed incorrectly due to its shape
+	~Placing controls for cooktops on the front or side, rather than the back
+	=Providing clear instructions for operation of machinery
+}
+
+
+// question: 223  name: Question
+::Question::[html]<p>Providing the same means of use for all users--identical whenever possible; equivalent when not--is an example of which Universal Design principle?</p>{
+	~Low Physical Effort
+	=Equitable Use
+	~Flexibility in Use
+	~Perceptible Information
+}
+
+
+// question: 224  name: Question
+::Question::[html]<p>Using different modes (pictorial, verbal, tactile) for redundant presentation of essential information is an example of which Universal Design principle?</p>{
+	~Flexibility in Use
+	=Perceptible Information
+	~Equitable Use
+	~Tolerance for Error
+}
+
+
+// question: 225  name: Question
+::Question::[html]<p>Providing adaptability to the user's pace is an example of which Universal Design principle?</p>{
+	=Flexibility in Use
+	~Tolerance for Error
+	~Perceptible Information
+	~Size and Space for Approach and Use
+}
+
+
+// question: 226  name: Question
+::Question::[html]<p>What is the name of the Universal Design principle that is demonstrated by accommodating variations in hand and grip size?</p>{
+	~Flexibility in Design
+	~Simple and Intuitive Use
+	~Flexibility in Use
+	=Size and Space for Approach and Use
+}
+
+
+// question: 227  name: Question
+::Question::[html]<p>What is the name of the Universal Design principle that is demonstrated by providing a clear line of sight to important elements for any seated or standing user?</p>{
+	~Perceptible Use
+	=Size and Space for Approach and Use
+	~Provide Adequate Space
+	~Equitable Access
+}
+
+
+// question: 228  name: Question
+::Question::[html]<p>What is the name of the Universal Design principle that is demonstrated by minimizing repetitive actions?</p>{
+	~Tolerance for Error
+	=Low Physical Effort
+	~Ease of Use
+	~Minimize Physical Effort
+}
+
+
+// question: 229  name: Question
+::Question::[html]<p>A well-designed and accessible touchscreen voting device that enables people with disabilities to vote without assistance is an example of which Universal Design principle?</p>{
+	~Tolerance for Error
+	~Size and Space for Approach and Use
+	=Equitable Use
+	~Flexibility in Use
+}
+
+
+// question: 230  name: Question
+::Question::[html]<p>What is the principle purpose for bumped tiles and ridged tiles in curb cuts?</p>{
+	~To slow down wheelchair users to prevent them from  accidentally entering  crosswalks prematurely
+	~To provide extra traction to assist wheelchair users in climbing a sloped surface
+	=To help warn pedestrians who are blind of an approaching intersection
+	~To channel rainwater away from the path
+	####Source\: Deque University &gt; IAAP CPACC Certification Preparation&gt; Universal Design for the Physical World &gt; <a href\="https\://dequeuniversity.com/class/iaap-cpacc1/universal-design-physical-world/sidewalks" class\="external" target\="_blank"><span>Sidewalks</span></a>
+}
+
+
+// question: 231  name: Question
+::Question::[html]<p>Which of the following is NOT a requirement in order for a sidewalk to be considered accessible?</p>{
+	~has no obstacles for wheelchair users or for blind users to bump into
+	~has curb cuts to allow wheelchair access to and from the sidewalk to other surfaces
+	=is graded to promote drainage and prevent pooling of water on the surface
+	~is broad enough to allow people in wheelchairs to navigate and pass by others
+	####Source\: Deque University &gt; IAAP CPACC Certification Preparation&gt; Universal Design for the Physical World &gt; <a href\="https\://dequeuniversity.com/class/iaap-cpacc1/universal-design-physical-world/sidewalks" class\="external" target\="_blank"><span>Sidewalks</span></a>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Designing and Accessible User Experience/Ability Persona Spectrum
+$CATEGORY: $course$/top/Default for WAS/Designing and Accessible User Experience/Ability Persona Spectrum
+
+
+// question: 240  name: Question
+::Question::[html]<p>Which of the following would be considered a person experiencing a temporary disability?</p>{
+	=A person with a cast due to a broken arm
+	~A person with quadriplegia
+	~A person carrying a bag of groceries
+	~A person wearing earplugs to prevent hearing damage in a noisy environment
+}
+
+
+// question: 241  name: Question
+::Question::[html]<p>Which of the following would be considered a person experiencing a situational disability?</p>{
+	=A person attempting to watch a football game on his phone while attending a church service
+	~A person with an ear infection
+	~A Deaf person
+	~A person with spasmodic dysphonia
+}
+
+
+// question: 242  name: Question
+::Question::[html]<p>Which of the following would be considered a person with a permanent disability?</p>{
+	~A person wearing stiletto-heeled shoes
+	=A person with multiple sclerosis
+	~A person with a broken mouse
+	~A person with a sore throat due to an infection
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Web Accessibility Testing
+$CATEGORY: $course$/top/Default for WAS/Web Accessibility Testing
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Web Accessibility Testing/Screen Readers
+$CATEGORY: $course$/top/Default for WAS/Web Accessibility Testing/Screen Readers
+
+
+// question: 256  name: Question
+::Question::[html]<p>How do you manually switch to Focus mode from Browse mode in NVDA?</p>{
+	=Pressing the Enter key when the reading cursor is over any non-form element
+	~Pressing the F key
+	~Pressing Insert+Spacebar
+	~You cannot manually switch to Focus mode
+}
+
+
+// question: 257  name: Question
+::Question::[html]<p>How do you bring up the rotor on iOS VoiceOver?</p>{
+	=perform a twisting gesture with two fingers
+	~swipe up, then right
+	~swipe down, then right
+	~Trick question\: The rotor is only something that is available on macOS
+}
+
+
+// question: 258  name: Question
+::Question::[html]<p>Which of the following is NOT a full-featured screen reader?</p>{
+	~JAWS
+	~NVDA
+	~Narrator
+	=ChromeVox
+}
+
+
+// question: 259  name: Question
+::Question::[html]<p>Which of the following is true about accessibility APIs?  Choose all that apply.</p>{
+	~%100%They allow screen readers to access key information about the objects and events available to the user
+	~They are only used by screen readers
+	~Browsers only ever expose information to one accessibility API
+	~Screen readers never use information from more than one accessibility API
+}
+
+
+// question: 260  name: Question
+::Question::[html]<p>Which of the following is a way to navigate between form elements on macOS Safari?</p>{
+	=Control+Option+Command+J
+	~Control+Option+Command+F
+	~Control+Option+Command+X
+	~Control+Option+J
+}
+
+
+// question: 261  name: Question
+::Question::[html]<p>How do you navigate to a cell below the current one with JAWS?</p>{
+	=Control+Alt+Down Arrow
+	~Control+Down Arrow
+	~Windows+Down Arrow
+	~Down Arrow
+}
+
+
+// question: 262  name: Question
+::Question::[html]<p>What does switching to the JAWS cursor allow you to do?</p>{
+	=Move the mouse cursor using the arrow keys and have what is under it read
+	~Move between application regions
+	~Switch between JAWS and screen reader
+	~Start or stop JAWS
+}
+
+
+// question: 263  name: Question
+::Question::[html]<p>Which of the following is NOT way to list all landmarks using a screen reader?</p>{
+	~In JAWS press Insert + F3 and then select landmarks
+	~In NVDA press Insert + F7 and then select landmarks
+	=In VoiceOver with Safari on iOS swipe up, then down
+	~In VoiceOver with Safari on macOS press Control + Option + U, then use left/right arrows to select landmarks
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/screen-readers" class\="external" target\="_blank"><span>Navigating Landmarks with Screen Readers</span></a>
+}
+
+
+// question: 264  name: Question
+::Question::[html]<p>Which of the following is a way to navigate to the main content landmark using a screen reader?</p>{
+	=In JAWS, press the Q key
+	~In NVDA, press the M key
+	~In VoiceOver on macOS, press Control + Option + M
+	~In Talkback, swipe left, then right
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/landmarks/screen-readers" class\="external" target\="_blank"><span>Navigating Landmarks with Screen Readers</span></a>
+}
+
+
+// question: 265  name: Question
+::Question::[html]<p>Which of the following is NOT a way to navigate from one landmark to the next using a screen reader?</p>{
+	~In JAWS 16 and above, press the R key
+	~In NVDA, press the D key
+	~In Talkback, bring up the local context menu by swiping up and then right, then select landmarks, then swipe right or left
+	=In VoiceOver with Safari on macOS, press Control + Option + L
+}
+
+
+// question: 266  name: Question
+::Question::[html]<p>Which of the following is NOT a way to navigate from one heading to the next using a screen reader?</p>{
+	~In JAWS, press the H key
+	~In NVDA, press the H key
+	~VoiceOver on iOS, use the rotor to select headings by making a twisting gesture with two fingers, and then swipe down with one finger
+	=In VoiceOver on macOS, press the H key
+}
+
+
+// question: 267  name: Question
+::Question::[html]<p>Which of the following is a way to navigate to headings of a certain level using a screen reader?</p>{
+	=In JAWS, press the number key corresponding to the level of the heading, from 1-6
+	~In NVDA, press the Insert key plus the number key corresponding to the level of the heading, from 1-6
+	~In VoiceOver on iOS, swipe diagonally down and to the left, then down and to the right (like a less than symbol) in order to bring up the on-screen keyboard, then press the number key corresponding to the heading level, from 1-6.
+	~In Talkback, swipe up from the bottom of the screen with three fingers to bring up the onscreen keyboard, and then press the number key corresponding to the heading level, from 1-6
+}
+
+
+// question: 268  name: Question
+::Question::[html]<p>Which of the following is a way to list all links using a screen reader?</p>{
+	~In JAWS, press Insert + F5
+	=In NVDA, press Insert + F7 to open the Elements List, and then select links
+	~In Talkback, swipe up from the bottom of the screen with three fingers to bring up the onscreen keyboard, and then press the L key
+	~In VoiceOver on macOS, press Control + Option + L
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/navigating-links-screen-readers" class\="external" target\="_blank"><span>Navigating links with screen readers</span></a>
+}
+
+
+// question: 269  name: Question
+::Question::[html]<p>Which of the following is NOT a way to navigate from one link to the next using a screen reader?</p>{
+	=In JAWS, press the K key
+	~In NVDA, press the K key
+	~VoiceOver on iOS, use the rotor to select links by making a twisting gesture with two fingers, and then swipe down with one finger
+	~In VoiceOver on macOS, press the Control + Option + Command + L
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/navigating-links-screen-readers" class\="external" target\="_blank"><span>Navigating links with screen readers</span></a>
+}
+
+
+// question: 270  name: Question
+::Question::[html]<p>Which of the following is a way to navigate to the next unvisited link using a screen reader?</p>{
+	=In JAWS, press U
+	~In NVDA, press Insert + U
+	~In VoiceOver on iOS, draw a U on the screen with one finger
+	~In VoiceOver on macOS, press the Control + Option + Command + U
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/navigating-links-screen-readers" class\="external" target\="_blank"><span>Navigating links with screen readers</span></a>
+}
+
+
+// question: 271  name: Question
+::Question::[html]<p>Which of the following is NOT a way to navigate to the next visited link using a screen reader?</p>{
+	~In JAWS, press V
+	~In NVDA, press V
+	=In Talkback, draw a V on the screen with one finger
+	~In VoiceOver on macOS, press the Control + Option + Command + V
+	####Source\: <a href\="https\://dequeuniversity.com/class/semantic-structure2/links/navigating-links-screen-readers" class\="external" target\="_blank"><span>Navigating links with screen readers</span></a>
+}
+
+
+// question: 243  name: Question
+::Question::[html]<p>Which of the following is NOT true about braille devices?</p>{
+	=most screen readers cannot output to refreshable braille displays
+	~people who are both deaf and blind rely on refreshable braille displays to access digital content
+	~refreshable braille display are sometimes used by people who are not deaf
+	~a refreshable braille display is an electro-mechanical device for displaying braille characters, usually by means of round-tipped pins raised through holes in a flat surface
+	####<p>Sources\: <a class\="instructure_file_link inline_disabled" href\="https\://dequeuniversity.com/class/screenreaders2/basics/what-are-screen-readers" target\="_blank">What are screen readers?</a> and <a class\="instructure_file_link inline_disabled" href\="https\://en.wikipedia.org/wiki/Refreshable_braille_display" target\="_blank">Refreshable Braille Display (Wikipedia)</a></p>
+}
+
+
+// question: 244  name: Question
+::Question::[html]<p>Which of the following is NOT a reason why someone with a cognitive disability might use a screen reader?</p>{
+	~%100%Because screen readers can output to Minspeak format used for augmentative and alternative communication
+	~Because they are also blind
+	~Because they find it easier to understand spoken rather than written words
+	~Because they also have low vision
+}
+
+
+// question: 245  name: Question
+::Question::[html]<p>Which browser usually works best with VoiceOver?</p>{
+	~Google Chrome
+	~Firefox
+	~Internet Explorer
+	=Safari
+}
+
+
+// question: 246  name: Question
+::Question::[html]<p>Which of the following platforms can you use VoiceOver on?</p>{
+	~Android
+	=iOS
+	~Linux
+	~Windows
+}
+
+
+// question: 247  name: Question
+::Question::[html]<p>In which of the following circumstances would it likely be most important to perform testing with a screen reader?</p>{
+	=When developing custom widgets with ARIA
+	~Any time you are creating an intranet application
+	~When testing content created with an authoring tool that complied with ATAG
+	~When testing simple, well-structured HTML
+}
+
+
+// question: 248  name: Question
+::Question::[html]<p>Which screen reader might you use on an Android device?</p>{
+	~Orca
+	~JAWS
+	=TalkBack
+	~VoiceOver
+}
+
+
+// question: 249  name: Question
+::Question::[html]<p>Which of the following is NOT true?</p>{
+	~It is possible to run JAWS on a Mac using VirtualBox
+	=Standard Mac keyboards have all the keys usually used to operate JAWS
+	~It is possible to configure NVDA to use different keyboard shortcuts when using a laptop keyboard
+	~It is possible to view the speech output of NVDA as text
+}
+
+
+// question: 250  name: Question
+::Question::[html]<p>Which of the following is a way to navigate between images using a screen reader?</p>{
+	=For macOS VoiceOver, pressing Control+Option+Command+G
+	~For NVDA, pressing the I key
+	~For JAWS, pressing I key
+	~For macOS VoiceOver, pressing the Control+Option+Command+I
+}
+
+
+// question: 251  name: Question
+::Question::[html]<p>How do you bring up the Local Context Menu on TalkBack?</p>{
+	~Swipe down, then right
+	~Swipe left, the right
+	~Make a twisting gesture with two fingers
+	=Swipe up, then right
+}
+
+
+// question: 252  name: Question
+::Question::[html]<p>Which of the following is roughly analogous to Focus mode?</p>{
+	=Forms mode
+	~Scan mode
+	~Table mode
+	~Browse mode
+}
+
+
+// question: 253  name: Question
+::Question::[html]<p>You are using JAWS and are not already in Forms mode.  Pressing Enter will switch to Forms mode when the Virtual PC Cursor is on which of the following elements?</p>{
+	=a text input element
+	~a checkbox
+	~a button
+	~a link
+}
+
+
+// question: 254  name: Question
+::Question::[html]<p>What does swiping down do on iOS VoiceOver?</p>{
+	~It goes to the bottom of the page
+	~It goes to the next paragraph
+	~It brings up the rotor
+	=It depends on what was last selected in the rotor
+}
+
+
+// question: 255  name: Question
+::Question::[html]<p>Which of the following should you do before commencing screen reader testing on a Mac?</p>{
+	~In Safari Preferences, under the Content tab, make sure the checkbox, "Read alternative text," is checked
+	=In Safari Preferences, under the Advanced tab, make sure the checkbox labeled, "Press Tab to highlight each item on a webpage," is checked
+	~In Safari Preferences, under the Advanced tab, make sure the checkbox "Enable VoiceOver support," is checked
+	~In System Preferences, under Accessibility, make sure VoiceOver is chosen as the default screen reader
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/Web Accessibility Testing/Basic Methods and Tools
+$CATEGORY: $course$/top/Default for WAS/Web Accessibility Testing/Basic Methods and Tools
+
+
+// question: 272  name: Question
+::Question::[html]<p>Which of the following is NOT true?</p>{
+	~Any pages where a user makes a payment or commits to a legal contract should ideally be included in the sample used for testing.
+	=Testing for accessibility is quick and easy once you know what you're doing, so all pages in a web site must be included in an accessibility audit, no matter the audience or purpose of the evaluation.
+	~If pages in a site are created from templates, you should try to include at least one page created from each of the templates in any sample chosen for testing.
+	~Any sample chosen for testing should include a diverse selection of content or functionality.
+	####<p>Source\: <a class\="instructure_file_link inline_disabled external" href\="https\://dequeuniversity.com/class/testing2/scope-of-test/entire-pages-templates" target\="_blank"><span>Entire Pages and Templates (Designs)</span></a></p>
+}
+
+
+// question: 273  name: Question
+::Question::[html]<p>When might you want to perform an accessibility conformance evaluation?  Check all that apply.</p>{
+	~%20%as a final check before releasing a product
+	~%20%in order to provide information to potential purchasers of your product
+	~%20%to regularly monitor the accessibility of your website
+	~%20%before procuring a product
+	~%20%when getting started with implementing accessibility to get a list of accessibility issues that you need to address
+	####<p>Source\: <a class\="instructure_file_link inline_disabled external" href\="https\://www.w3.org/WAI/test-evaluate/conformance/wcag-em/" target\="_blank"><span>WCAG-EM Overview\: Website Accessibility Conformance Evaluation Methodology</span></a></p>
+}
+
+
+// question: 274  name: Question
+::Question::[html]<p>What is an example of something that can currently be tested using fully automated accessibility testing tools?</p>{
+	=Whether an alt attribute has been provided for an img tag
+	~Whether focusable components receive focus in an order that preserves meaning and operability
+	~Whether all functionality of the content is operable through a keyboard interface
+	~Whether an image is purely decorative
+}
+
+
+// question: 275  name: Question
+::Question::[html]<p>Which of the following is NOT an example of a tool that can be used for testing the accessibility of a web page?</p>{
+	~WAVE
+	~Axe
+	~HTML_CodeSniffer
+	=Trusted Tester
+}
+
+
+// question: 276  name: Question
+::Question::[html]<p>Which of the following accessibility issues should you probably address first?</p>{
+	=The main site navigation menu used on every page in the site has a contrast ratio of 1.5\:1.  Changing the color property in a class in a common stylesheet would resolve the problem.
+	~A decorative background image that appears on every page of the site that has an alt attribute with the value "background image".
+	~A complex drag & drop widget that allows the user to change the order in which page regions and navigational elements appear throughout a site.  The drag & drop widget is not keyboard accessible and there are no semantics to indicate the appropriate roles, properties, and states of the interactive components in the widget.
+	~There is the ability to add a comment on any page in the site.  The default interface uses a rich content editor that is not keyboard accessible and there are no semantics to indicate the appropriate roles, properties, and states of the interactive components in the editor.  However, there is a toggle button that appears before the rich content editor that allows the user to switch to a simplified interface for leaving the comment that is just textarea tag.
+	####<p>Source\: <a class\="instructure_file_link inline_disabled external" href\="https\://dequeuniversity.com/class/testing2/bug-issue-management/prioritizing-bugs" target\="_blank"><span>Prioritizing Accessibility Bugs</span></a></p>
+}
+
+
+// question: 277  name: Question
+::Question::[html]<p>Approximately what percentage of accessibility issues can be found through automated testing?</p>{
+	~100%, but only with the more expensive testing tools
+	~5%
+	=33%
+	~90%
+	####<p>Source\: <a class\="instructure_file_link inline_disabled external" href\="https\://dequeuniversity.com/class/testing2/automated-testing-tools/types-automated-testing" target\="_blank"><span>Type of Automated Testing</span></a></p>
+}
+
+
+// question: 0  name: Switch category to $course$/top/Default for WAS/WCAG 2.1
+$CATEGORY: $course$/top/Default for WAS/WCAG 2.1
+
+
+// question: 278  name: Question
+::Question::[html]<p>Carrie is paralyzed and uses a power chair, from which she accesses the internet through a tablet mounted to her chair's arm. She controls the tablet using a sip-and-puff device. Which of the following would be LEAST likely to present a barrier for her\:</p>{
+	~Content that restricts its view or operation to a single display orientation, such as portrait or landscape
+	~An application the requires shaking the device to undo an action
+	=An application that fails to use ARIA live regions when presenting status messages
+	~A menu that only expands in response to mouseover events
+	####<a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#character-key-shortcuts" class\="external" target\="_blank"><span></span></a><a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#orientation" class\="external" target\="_blank"><span>WCAG Success Criterion 1.3.4 Orientation</span></a>
+}
+
+
+// question: 279  name: Question
+::Question::[html]<p>Who would be <strong>least</strong> likely to benefit when pages use the autocomplete attribute on form fields?</p>{
+	~People with cognitive disabilities
+	=Deaf people
+	~People with motor disabilities
+	~People accessing a page in a language other than their native one
+	####<a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#identify-input-purpose">WCAG Success Criterion 1.3.5 Identify Input Purpose</a>
+}
+
+
+// question: 280  name: Question
+::Question::[html]<p>Under WCAG 2.1, which of the following would violate conformance level A or AA success criteria?</p>{
+	~14 point bold text with a contrast ratio of 3\:1
+	~18 point non-bold text with a contrast ratio of 3\:1
+	~15 point underlined link text with a contrast ratio of 2.8\:1 against the surrounding text#Note that the contrast ratio provided was not the contrast ratio of the text to its background, but, rather, the contrast ratio of the link text relative to the text around it.  Because there is an underline to indicate that the text is a link, the fact that it does not have at least a 3\:1 contrast ratio relative to the surrounding text does not prevent the link from being distinguishable from its surrounding context.  
+	=A button with no border where the contrast ratio between the button text and the click target area is 4.5\:1, but where the contrast ratio between the click target area and the background it appears against is 2.9\:1.
+	####<a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#non-text-contrast">WCAG Success Criterion 1.4.11 Non-text Contrast</a>
+}
+
+
+// question: 281  name: Question
+::Question::[html]<p>Under WCAG 2.1, which of the following would violate conformance level A or AA success criteria?</p>{
+	~A bar graph with two colors where contrast ratio between them is 3\:1, and where being able to distinguish between those two colors is essential to understanding the content
+	=A form field where color cues and the required attribute are relied upon to indicate which fields must be filled out
+	~Link text that is not underlined, except on hover or focus, and which has a contrast ratio of 3.5\:1 against the surrounding text
+	~Images of text that appear in a logo
+	####<ul><li><a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#non-text-contrast"></a><a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#sensory-characteristics">WCAG Success Criterion 1.3.3. Sensory Characteristics</a></li><li><a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#non-text-contrast">WCAG Success Criterion 1.4.11 Non-text Contrast</a></li></ul>
+}
+
+
+// question: 282  name: Question
+::Question::[html]Under WCAG 2.1, which of the following would NOT violate conformance level A or AA success criteria?{
+	~Content that, when the user increases the line height to 1.5 times the font size, becomes unreadable
+	=A fixed-width column of English language text that has more than 80 characters or glyphs per line
+	~Text in a paragraph element that when magnified 200% becomes obscured by another element on the page
+	~Content that requires the user to scroll in two dimensions to access information, when accessed on a device with a viewport width of 320 CSS pixels, except when that content requires two-dimensional layout for meaning (as with tables)
+	####<a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#text-spacing">WCAG Success Criterion 1.4.12 Text Spacing</a>
+}
+
+
+// question: 283  name: Question
+::Question::[html]<p>Excerpts of stories appear on a page, with links after each excerpt that have the visible text "More".  However, for each of these links, the <code>aria-label</code> attribute has been set to "Read [title of the story]". Which users would be most likely to be inconvenienced by this pattern?</p>{
+	~Users of screen magnification software
+	=Users of speech recognition and control software
+	~Users of on-screen keyboards
+	~Nobody would experience a barrier, because this provides a unique name for each link
+	####<a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#label-in-name">WCAG Success Criterion 2.5.3 Label in Name</a>
+}
+
+
+// question: 284  name: Question
+::Question::[html]<p>When a user hovers over a button (but not when it receives keyboard focus), text appears beside it.  When the mouse cursor leaves the button, the text's <code>display</code> property is set to <code>none</code>, making it disappear.  Which users would be <em>least</em> likely to experience a barrier from this pattern?</p>{
+	~Users of screen reading software and those who prefer to use the keyboard
+	~Users of screen magnification software and touch screen devices
+	~Users of voice control software
+	=People with dyscalculia and auditory processing disorders
+	####<a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#content-on-hover-or-focus">WCAG Success Criterion 1.4.13 Content on Hover or Focus</a>
+}
+
+
+// question: 285  name: Question
+::Question::[html]<p>Which of the following is NOT considered a "status message" according to WCAG 2.1?</p>{
+	=When an error message is displayed in a dialog
+	~An application displays a progressbar to indicate the status of an upgrade. The element is assigned a suitable role. The screen reader provides intermittent announcements of the progress.
+	~After a user presses an Add to Shopping Cart button, a section of content near the Shopping Cart icon adds the text "5 items". A screen reader announces "Five items" or "Shopping cart, five items".
+	~After a user activates a process, an icon symbolizing 'busy' appears on the screen. The screen reader announces "application busy".
+	####Source\: <a href\="https\://www.w3.org/WAI/WCAG21/Understanding/status-messages.html\#excepted-examples">Understanding Success Criterion 4.1.3\: Status Messages</a>
+}
+
+
+// question: 286  name: Question
+::Question::[html]<p>Hakeem uses a web app which requires him to draw a circle around items with the pointer to select them. He has trouble doing this because he has poor fine motor control. Of the following strategies for reworking this pattern, which would allow the largest range of users to meet the goal of selecting multiple items?</p>{
+	=Let the user click on each item to select it, making sure each item can receive keyboard focus.
+	~Allow for the use of single character key shortcuts that cannot be changed to select items.
+	~Use the WebSpeech API to allow users to select items by saying "click [item name]"
+	~Allow multipoint gestures to select items
+	####<ul><li><a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#character-key-shortcuts" class\="external" target\="_blank"><span>WCAG Success Criterion 2.1.4 Character Key Shortcuts</span></a></li><li><a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#pointer-gestures" class\="external" target\="_blank"><span>WCAG Success Criterion 2.5.1 Pointer Gestures</span></a></li></ul>
+}
+
+
+// question: 287  name: Question
+::Question::[html]<p>Which of the following is NOT a main area of focus for WCAG 2.1?</p>{
+	~mobile technology
+	=augmented reality
+	~low vision
+	~cognitive disabilities
+	####<a href\="https\://www.w3.org/TR/WCAG21/\#comparison-with-wcag-2-0">WCAG 2.1\: Comparison with WCAG 2.0</a>
+}
+
+
+// question: 288  name: Question
+::Question::[html]<p>Which of the following has changed between WCAG 2.0 and 2.1?  Select all that apply.</p>{
+	~Some success criteria were removed.
+	~%33.33333%Some success criteria were added.
+	~%33.33333%Explicit guidance was added indicating that different presentation triggered by responsive breakpoints must also be considered in determining the conformance of the page as a whole.
+	~%33.33333%Definitions relating to new success criteria were added.
+	####<a href\="https\://www.w3.org/TR/WCAG21/\#new-features-in-wcag-2-1">0.5.1 New Features in WCAG 2.1</a>
+}
+
+
+// question: 289  name: Question
+::Question::[html]<p>If a keyboard shortcut is implemented in content using only letter (including upper- and lower-case letters), punctuation, number, or symbol characters, how can you ensure accessibility requirements are met for such shortcuts? </p><p>Select all that apply.</p>{
+	~%33.33333%A mechanism is available to turn the shortcut off.
+	~%33.33333%A mechanism is available to remap the shortcut to use one or more non-printable keyboard characters (e.g. Ctrl, Alt, etc).
+	~The keyboard shortcut for a user interface component is only active when the mouse pointer is over that component.
+	~%33.33333%The keyboard shortcut for a user interface component is only active when that component has focus.
+	####<a href\="https\://www.w3.org/WAI/WCAG21/quickref/\#character-key-shortcuts">WCAG Success Criterion 2.1.4 Character Key Shortcuts</a>
+}
+
+
