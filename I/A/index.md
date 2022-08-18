@@ -22,7 +22,7 @@ Topics that should be studied and mastered to enable you to pass the WCAG 2 comp
 
     b) Understand the WAI-ARIA model of names, roles, and values.
 
-    c) Know when and why to user WAI-ARIA, and when to use standard HTML instead.
+    c) Know when and why to use WAI-ARIA, and when to use standard HTML instead.
 
     d) Be familiar with the authoring practices for custom widgets, including semantic structure, keyboard behavior, etc.
 3. Understand and interpret ATAG 2
