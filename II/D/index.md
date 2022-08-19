@@ -1,5 +1,13 @@
-# D. Test for end-user impact 
-## Study topics related to testing the end-user impact
-1. Understand the value of user testing, with users with a variety of types of disabilities.
-2. Think through the consequences of certain types of accessibility flaws. Some times are more damaging than others.
-3. Consider the usability of the design, not just the accessibility or just conformance to the specifications.
+# D. Choose well-supported accessibility techniques
+
+Study topics related to accessibility support
+
+1.  Understand the importance of coding to standards, rather than to the quirks or features of only one set of technologies.
+2.  Understand the concept of progressive enhancement, in which the baseline interaction is possible using legacy technologies, and the more modern web site features are available for technologies that are more modern.
+3.  Understand the importance of testing web designs for accessibility across a variety of platforms, browsers, and assistive technologies, and not just assuming they will work, even if they technically conform to published accessibility
+    specifications.
+4.  Know which combinations of assistive technologies work best with which browsers for testing purposes.
+5.  Know how to determine when an inaccessible outcome is the result of poor design versus poor technology support. 
+6.  Know how to tell the difference between inaccessible content and incomplete or faulty accessibility testing techniques.
+7.  Avoid design techniques or technologies that work only on certain platforms.
+8.  Know when it may be appropriate to write code that overrides, supplements, or fixes bugs in browsers or assistive technologies (do this only with great caution!).
