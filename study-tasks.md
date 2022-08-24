@@ -108,7 +108,7 @@ Study topics related to single-page applications
 2. Identify the strategies and technologies used by people with reading difficulties to access web content
 3. Identify the strategies and technologies used by people with cognitive disabilities to access web content
 4. Identify the strategies and technologies used by people with motor disabilities to access web content
-5. dentify the strategies Iand technologies used by people who are deaf or hard-of-hearing to access web content
+5. Identify the strategies and technologies used by people who are deaf or hard-of-hearing to access web content
 
 ## [II. Identify accessibility issues/problems (40%)](II/index.md)
 ### A. Identify interoperability and compatibility issues.
