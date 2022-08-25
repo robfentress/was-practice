@@ -7,7 +7,7 @@ Submit a [proposed question issue](https://github.com/robfentress/was-practice/i
 * It should be a multiple choice question 
   * with four possible answers and 
   * only one correct answer.  
-* It should be written in [GIFT format](https://docs.moodle.org/37/en/GIFT_format#Multiple_choice).  Please use the [GIFT Question Editor](https://fuhrmanator.github.io/GIFT-grammar-PEG.js/docs/editor/editor.html) to validate that your question can be parsed correctly before submitting.
+* It should be written in [GIFT format](https://docs.moodle.org/37/en/GIFT_format#Multiple_choice).  Please use the [GIFT Question Editor](https://fuhrmanator.github.io/GIFT-grammar-PEG.js/editor/editor.html) to validate that your question can be parsed correctly before submitting.
 * It should not include a title
 
 Precede your questions with comments that include:
