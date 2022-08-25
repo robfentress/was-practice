@@ -45,15 +45,12 @@ Some of the highlights of accessible interaction design are shown in the list be
 2. **Use semantic html** - HTML defines sets of elements, attributes, and attribute values. These features have specific semantic meanings and are intended to be processed by user agents in particular ways.
 3. **Consider DOM order when adding new content dynamically** - When content is added or altered on a page, it should generally be added after the current point of focus, because screen reader users are much less likely to navigate backward in the DOM than forward in the DOM, causing them to miss most additions/changes in previous positions in the DOM
 4. **Create device-independent event handlers** - JavaScript event handlers must be device-independent. The functionality must be available with the keyboard, mouse, touch, voice, etc.
-5. **Create accessible JavaScript widgets** - design patterns and examples of
-common widgets.
-1. **Simplify events** - Buttons and other interactive elements should generally have only one type of event associated with them. Multi-event elements are more difficult to make accessible and more difficult for users to understand. For example, either a menu item should act as a link or as a button that expands a submenu. Coding a menu item to expand the menu on hover and activate a link on click is problematic for keyboard users, touch users, and gesture-based mobile screen reader users.
+5. **Create accessible JavaScript widgets** - design patterns and examples of common widgets.
+6. **Simplify events** - Buttons and other interactive elements should generally have only one type of event associated with them. Multi-event elements are more difficult to make accessible and more difficult for users to understand. For example, either a menu item should act as a link or as a button that expands a submenu. Coding a menu item to expand the menu on hover and activate a link on click is problematic for keyboard users, touch users, and gesture-based mobile screen reader users.
 
 ### C. Integrate accessibility into the quality assurance process.
 Study topics related to accessibility quality assurance
-1. Characterize and differentiate between the disciplines of Agile and Waterfall project management methodologies, and compare the approaches each methodology would have in relation to accessibility quality assurance. Agile
-management means testing in phases, while waterfall management means the
-software, for example, is tested only once.
+1. Characterize and differentiate between the disciplines of Agile and Waterfall project management methodologies, and compare the approaches each methodology would have in relation to accessibility quality assurance. Agile management means testing in phases, while waterfall management means the software, for example, is tested only once.
 2. Demonstrate an understanding of the benefits of designing digital content with accessibility in mind as opposed to remediation.
 3. Characterize and differentiate between the disciplines of accessibility and user experience design and compare assumptions of each discipline. 
 4. Demonstrate an understanding of user testing, and compare to accessibility verification testing (AVT).
@@ -64,8 +61,7 @@ software, for example, is tested only once.
 Study topics related to accessibility support
 1. Understand the importance of coding to standards, rather than to the quirks or features of only one set of technologies.
 2. Understand the concept of progressive enhancement, in which the baseline interaction is possible using legacy technologies, and the more modern web site features are available for technologies that are more modern.
-3. Understand the importance of testing web designs for accessibility across a variety of platforms, browsers, and assistive technologies, and not just assuming they will work, even if they technically conform to published accessibility
-specifications.
+3. Understand the importance of testing web designs for accessibility across a variety of platforms, browsers, and assistive technologies, and not just assuming they will work, even if they technically conform to published accessibility specifications.
 4. Know which combinations of assistive technologies work best with which browsers for testing purposes.
 5. Know how to determine when an inaccessible outcome is the result of poor design versus poor technology support. 
 6. Know how to tell the difference between inaccessible content and incomplete or faulty accessibility testing techniques.
@@ -154,8 +150,7 @@ Study topics related to determining the level of conformance to accessibility sp
 
 ### C. Test with assistive technologies.
 Study topics related to testing with assistive technologies
-1. Know how to use screen readers to navigate elements such as landmarks,
-headings, tables, forms, etc.
+1. Know how to use screen readers to navigate elements such as landmarks, headings, tables, forms, etc.
 2. Know how to go forward and backward through focusable content in screen readers (e.g., using the tab key or shift+tab in desktop browsers) 
 3. Know how to go forward and backward through all content in screen readers (e.g., using the down or up arrow keys in most screen readers).
 4. Know the consequences of using contrast enhancement modes such as Windows High Contrast Mode
