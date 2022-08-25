@@ -7,7 +7,7 @@ Submit a [proposed question issue](https://github.com/robfentress/was-practice/i
 * It should be a multiple choice question 
   * with four possible answers and 
   * only one correct answer.  
-* It should be written in [GIFT format](https://docs.moodle.org/37/en/GIFT_format#Multiple_choice).  Please use the [GIFT Question Editor](https://fuhrmanator.github.io/GIFT-grammar-PEG.js/editor/editor.html) to validate that your question can be parsed correctly before submitting.
+* It should be written in [GIFT format](https://docs.moodle.org/37/en/GIFT_format#Multiple_choice).  Please use the [GIFT Question Editor](https://fuhrmanator.github.io/GIFT-grammar-PEG.js/editor/editor.html) to validate that your question can be parsed correctly before submitting.  If you're comfortable with [Docker](https://www.docker.com/) and know how to use the [Moodle learning management](https://moodle.org/) system,  you can use the [docker-compose.yml](https://github.com/robfentress/was-practice/blob/master/docker-compose.yml) file to spin up a local Moodle instance that will allow you to [create](https://docs.moodle.org/27/en/Building_Quiz#Creating_a_new_question) and [export](https://docs.moodle.org/310/en/Export_questions) questions (choose _Gift format_ under _File format_) using a WYSIWYG editor.
 * It should not include a title
 
 Precede your questions with comments that include:
