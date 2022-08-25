@@ -11,7 +11,7 @@ Submit a [proposed question issue](https://github.com/robfentress/was-practice/i
 * It should not include a title
 
 Precede your questions with comments that include:
-* The numbered _"study task"_ listed in the [Web Accessibility Specialist Body of Knowledge](https://iaap.membershipsoftware.org/files/IAAP%20WAS%20BOK%202018.docx) that your question relates to.  If there is no study task, include the section of the CPACC your question relates to.
+* The numbered _"study task"_ listed on the [Study Tasks page](https://github.com/robfentress/was-practice/blob/master/study-tasks.md) that your question relates to, such as **I:A.1.c**.  If you can't relate it to a particular study task, relate it to the closest section or subsection that you can such as **I** or **I:A** or **I:A.1**.
 * A reference to any source materials you are basing the question on
 
 ***
