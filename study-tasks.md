@@ -138,9 +138,9 @@ Some highlights of the types of things to look for include:
 
     b) Designing and building for any screen orientation
 
-    d) Custom and complex (e.g. multi-finger) gestures must have an alternative method for activation (e.g., by activating a button)
+    c) Custom and complex (e.g. multi-finger) gestures must have an alternative method for activation (e.g., by activating a button)
 
-    e) Motion-activated events (e.g., shaking the device) must have an alternative method for activation (e.g. clicking a button). The user must be able to disable the motion feature to prevent accidental activation due to tremors or spasms.
+    d) Motion-activated events (e.g., shaking the device) must have an alternative method for activation (e.g. clicking a button). The user must be able to disable the motion feature to prevent accidental activation due to tremors or spasms.
 
 
 ### B. Determine conformance to accessibility specifications based on accessibility issues found.
